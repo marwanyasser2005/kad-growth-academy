@@ -1,0 +1,1318 @@
+{
+  "environment": "Chromium DOM rendering via set_content; navigation is blocked by host policy, so browser storage is a test-only in-memory localStorage implementation.",
+  "checks": [
+    {
+      "name": "Arabic is default",
+      "passed": true
+    },
+    {
+      "name": "No external video iframe before consent",
+      "passed": true
+    },
+    {
+      "name": "Library contains all 20 lessons",
+      "passed": true
+    },
+    {
+      "name": "Arabic filter returns 11 lessons",
+      "passed": true
+    },
+    {
+      "name": "Empty search handled",
+      "passed": true
+    },
+    {
+      "name": "Lesson starts incomplete",
+      "passed": true
+    },
+    {
+      "name": "First quiz contains 5 questions",
+      "passed": true
+    },
+    {
+      "name": "Unanswered quiz rejected",
+      "passed": true
+    },
+    {
+      "name": "Perfect quiz is scored 100",
+      "passed": true
+    },
+    {
+      "name": "Explanations shown for every answer",
+      "passed": true
+    },
+    {
+      "name": "Quiz alone does not complete lesson",
+      "passed": true
+    },
+    {
+      "name": "Reflection persists before explicit save or delayed callbacks",
+      "passed": true
+    },
+    {
+      "name": "Lesson completes with all three requirements",
+      "passed": true
+    },
+    {
+      "name": "Bookmark persisted",
+      "passed": true
+    },
+    {
+      "name": "Saved library displays bookmarked item",
+      "passed": true
+    },
+    {
+      "name": "Quiz result and reflection survive navigation",
+      "passed": true
+    },
+    {
+      "name": "Retake clears active answers, retains best score",
+      "passed": true
+    },
+    {
+      "name": "Notes are escaped, not executable",
+      "passed": true
+    },
+    {
+      "name": "Note persisted",
+      "passed": true
+    },
+    {
+      "name": "Empty practice submission rejected",
+      "passed": true
+    },
+    {
+      "name": "Practice submission is recorded locally",
+      "passed": true
+    },
+    {
+      "name": "Editable tool saves",
+      "passed": true
+    },
+    {
+      "name": "Nine self-ratings saved separately",
+      "passed": true
+    },
+    {
+      "name": "Local profile saves without account",
+      "passed": true
+    },
+    {
+      "name": "Capstone submission validates required fields",
+      "passed": true
+    },
+    {
+      "name": "Capstone is a local submitted record",
+      "passed": true
+    },
+    {
+      "name": "Certificate remains locked for partial completion",
+      "passed": true
+    },
+    {
+      "name": "Invalid video ID rejected",
+      "passed": true
+    },
+    {
+      "name": "Content override remains local",
+      "passed": true
+    },
+    {
+      "name": "Issue saved locally, not sent",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /library",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /saved",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /assessment",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /progress",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /notes",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /capstone",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /achievements",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /certificate",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /profile",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /settings",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /help",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /about",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /sources",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /privacy",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /terms",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /login",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /register",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /forgot-password",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /reset-password",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /manager",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin/content",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin/questions",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin/roadmap",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin/reports",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/what-is-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/great-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/management-and-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/leader-traits",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/big-five",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/human-needs",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/emotional-intelligence",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/emotionally-intelligent-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/communication-intro",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/communication-value",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/active-listening",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/psychological-safety",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/trust-and-performance",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/useful-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/constructive-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/resolve-conflict",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/difficult-conversations",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/team-development",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/trust-teamwork",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-1",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-2",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-3",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-4",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-5",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-6",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-7",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-8",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /practice/case-9",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/manual",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/reflection",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/pause",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/meeting",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/speak-up",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/decision",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /toolkit/agreement",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /admin/roadmap/communication",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /communication",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /tracks/advanced-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 1440 /learn/not-real",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /library",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /saved",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /assessment",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /progress",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /notes",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /capstone",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /achievements",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /certificate",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /profile",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /settings",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /help",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /about",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /sources",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /privacy",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /terms",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /login",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /register",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /forgot-password",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /reset-password",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /manager",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin/content",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin/questions",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin/roadmap",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin/reports",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/what-is-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/great-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/management-and-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/leader-traits",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/big-five",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/human-needs",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/emotional-intelligence",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/emotionally-intelligent-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/communication-intro",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/communication-value",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/active-listening",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/psychological-safety",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/trust-and-performance",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/useful-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/constructive-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/resolve-conflict",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/difficult-conversations",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/team-development",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/trust-teamwork",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-1",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-2",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-3",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-4",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-5",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-6",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-7",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-8",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /practice/case-9",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/manual",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/reflection",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/pause",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/meeting",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/speak-up",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/decision",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /toolkit/agreement",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /admin/roadmap/communication",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /communication",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /tracks/advanced-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 1440 /learn/not-real",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /library",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /saved",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /assessment",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /progress",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /notes",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /capstone",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /achievements",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /certificate",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /profile",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /settings",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /help",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /about",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /sources",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /privacy",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /terms",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /login",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /register",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /forgot-password",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /reset-password",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /manager",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin/content",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin/questions",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin/roadmap",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin/reports",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/what-is-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/great-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/management-and-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/leader-traits",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/big-five",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/human-needs",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/emotional-intelligence",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/emotionally-intelligent-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/communication-intro",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/communication-value",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/active-listening",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/psychological-safety",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/trust-and-performance",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/useful-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/constructive-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/resolve-conflict",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/difficult-conversations",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/team-development",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/trust-teamwork",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-1",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-2",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-3",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-4",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-5",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-6",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-7",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-8",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /practice/case-9",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/manual",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/reflection",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/pause",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/meeting",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/speak-up",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/decision",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /toolkit/agreement",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /admin/roadmap/communication",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /communication",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /tracks/advanced-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders ar 390 /learn/not-real",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /library",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /saved",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /assessment",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /progress",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /notes",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /capstone",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /achievements",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /certificate",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /profile",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /settings",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /help",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /about",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /sources",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /privacy",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /terms",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /login",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /register",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /forgot-password",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /reset-password",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /manager",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin/content",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin/questions",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin/roadmap",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin/reports",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/what-is-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/great-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/management-and-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/leader-traits",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/big-five",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/human-needs",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/emotional-intelligence",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/emotionally-intelligent-leader",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/communication-intro",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/communication-value",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/active-listening",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/psychological-safety",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/trust-and-performance",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/useful-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/constructive-feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/resolve-conflict",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/difficult-conversations",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/team-development",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/trust-teamwork",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-1",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-2",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-3",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-4",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-5",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-6",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-7",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-8",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /practice/case-9",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/manual",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/reflection",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/pause",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/meeting",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/speak-up",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/delegation",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/feedback",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/decision",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /toolkit/agreement",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /admin/roadmap/communication",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /communication",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /tracks/advanced-leadership",
+      "passed": true
+    },
+    {
+      "name": "Renders en 390 /learn/not-real",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript page errors",
+      "passed": true
+    },
+    {
+      "name": "Future public route is hidden",
+      "passed": true
+    },
+    {
+      "name": "Credentials disabled /login",
+      "passed": true
+    },
+    {
+      "name": "Credentials disabled /register",
+      "passed": true
+    },
+    {
+      "name": "Credentials disabled /forgot-password",
+      "passed": true
+    },
+    {
+      "name": "Credentials disabled /reset-password",
+      "passed": true
+    },
+    {
+      "name": "Backup export produces valid JSON",
+      "passed": true
+    },
+    {
+      "name": "Invalid import preserves local record",
+      "passed": true
+    },
+    {
+      "name": "Valid import replaces after confirmation",
+      "passed": true
+    },
+    {
+      "name": "Cancel reset preserves progress",
+      "passed": true
+    },
+    {
+      "name": "Confirmed reset clears progress and notes",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "overflow": [],
+  "summary": {
+    "passed": 326,
+    "total": 326,
+    "routesPerVariant": 71,
+    "variants": 4,
+    "externalVideoPlayback": "NOT VERIFIED: network/navigation restricted in the build environment"
+  }
+}

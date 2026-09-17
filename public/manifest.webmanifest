@@ -1,0 +1,19 @@
+{
+  "name": "KAD Growth Academy",
+  "short_name": "KAD Growth",
+  "description": "KAD bilingual open-access Leadership Academy. Learn, practice, and reflect.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111112",
+  "theme_color": "#111112",
+  "icons": [
+    {
+      "src": "./assets/kad-logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

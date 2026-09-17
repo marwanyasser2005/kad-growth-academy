@@ -1,0 +1,7 @@
+{
+  "passed": 326,
+  "total": 326,
+  "routesPerVariant": 71,
+  "variants": 4,
+  "externalVideoPlayback": "NOT VERIFIED: network/navigation restricted in the build environment"
+}

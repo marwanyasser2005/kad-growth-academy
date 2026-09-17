@@ -1,0 +1,446 @@
+{
+  "version": "1.2.0",
+  "qualification": "Title/URL lookup only; live playback, duration, captions, transcript alignment and institutional reuse need review.",
+  "resources": [
+    {
+      "lessonId": "what-is-leadership",
+      "moduleId": "essentials",
+      "title": {
+        "en": "What is leadership?",
+        "ar": "ما هي القيادة؟"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "ieYl_Uht-_k",
+      "url": "https://www.youtube.com/watch?v=ieYl_Uht-_k",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "great-leader",
+      "moduleId": "essentials",
+      "title": {
+        "en": "What it takes to be a great leader",
+        "ar": "ما الذي يصنع قائدًا فعّالًا؟"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "youtubeId": "LU84BFFqKvI",
+      "url": "https://www.youtube.com/watch?v=LU84BFFqKvI",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "management-and-leadership",
+      "moduleId": "essentials",
+      "title": {
+        "en": "Management and leadership in projects",
+        "ar": "الإدارة والقيادة في المشروعات"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "a5oKAWzy4F8",
+      "url": "https://www.youtube.com/watch?v=a5oKAWzy4F8",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "leader-traits",
+      "moduleId": "self-awareness",
+      "title": {
+        "en": "Personal traits and emotional awareness",
+        "ar": "سمات القائد والوعي العاطفي"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "O_sbecnb45M",
+      "url": "https://www.youtube.com/watch?v=O_sbecnb45M",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "big-five",
+      "moduleId": "self-awareness",
+      "title": {
+        "en": "The Big Five as a reflection lens",
+        "ar": "العوامل الخمسة الكبرى كأداة للتأمل"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "vtr7aPzqGQg",
+      "url": "https://www.youtube.com/watch?v=vtr7aPzqGQg",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "human-needs",
+      "moduleId": "self-awareness",
+      "title": {
+        "en": "Human needs and motivation",
+        "ar": "الاحتياجات الإنسانية والدافعية"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "RJkW1ovaMo0",
+      "url": "https://www.youtube.com/watch?v=RJkW1ovaMo0",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "emotional-intelligence",
+      "moduleId": "emotional-intelligence",
+      "title": {
+        "en": "Emotional intelligence in practice",
+        "ar": "الذكاء العاطفي في الممارسة"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "G7OzFyilUOM",
+      "url": "https://www.youtube.com/watch?v=G7OzFyilUOM",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "emotionally-intelligent-leader",
+      "moduleId": "emotional-intelligence",
+      "title": {
+        "en": "The emotionally intelligent leader",
+        "ar": "القائد الذكي عاطفيًا"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "yN3FLEuMU10",
+      "url": "https://www.youtube.com/watch?v=yN3FLEuMU10",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "communication-intro",
+      "moduleId": "communication",
+      "title": {
+        "en": "An introduction to communication",
+        "ar": "مقدمة في التواصل"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "e3-cc6bxRjc",
+      "url": "https://www.youtube.com/watch?v=e3-cc6bxRjc",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "communication-value",
+      "moduleId": "communication",
+      "title": {
+        "en": "Why communication matters",
+        "ar": "لماذا التواصل مهم؟"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "2ZuT9_BVr1M",
+      "url": "https://www.youtube.com/watch?v=2ZuT9_BVr1M",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "active-listening",
+      "moduleId": "communication",
+      "title": {
+        "en": "The art of active listening",
+        "ar": "فن الاستماع الفعّال"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "youtubeId": "aDMtx5ivKK0",
+      "url": "https://www.youtube.com/watch?v=aDMtx5ivKK0",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "psychological-safety",
+      "moduleId": "trust",
+      "title": {
+        "en": "What is psychological safety?",
+        "ar": "ما هو الأمان النفسي؟"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "youtubeId": "GZgmoxOgfig",
+      "url": "https://www.youtube.com/watch?v=GZgmoxOgfig",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "trust-and-performance",
+      "moduleId": "trust",
+      "title": {
+        "en": "Trust and high-performing teams",
+        "ar": "الثقة وفرق الأداء العالي"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "youtubeId": "P8ojeO9za84",
+      "url": "https://www.youtube.com/watch?v=P8ojeO9za84",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "delegation",
+      "moduleId": "delegation",
+      "title": {
+        "en": "The power of letting go",
+        "ar": "قوة التفويض ومنح المسؤولية"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "youtubeId": "-rnGUbhFhdg",
+      "url": "https://www.youtube.com/watch?v=-rnGUbhFhdg",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "useful-feedback",
+      "moduleId": "feedback",
+      "title": {
+        "en": "Helpful and unhelpful feedback",
+        "ar": "الملاحظات المفيدة وغير المفيدة"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "youtubeId": "MmkTKE5B7Q4",
+      "url": "https://www.youtube.com/watch?v=MmkTKE5B7Q4",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "constructive-feedback",
+      "moduleId": "feedback",
+      "title": {
+        "en": "Honest, constructive feedback",
+        "ar": "الملاحظات الصريحة والبنّاءة"
+      },
+      "source": "Stanford GSB",
+      "language": "en",
+      "youtubeId": "O8OytB6LfXo",
+      "url": "https://www.youtube.com/watch?v=O8OytB6LfXo",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "resolve-conflict",
+      "moduleId": "conflict",
+      "title": {
+        "en": "The leader's role in resolving conflict",
+        "ar": "دور القائد في حل النزاعات"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "53VDbPb2X0A",
+      "url": "https://www.youtube.com/watch?v=53VDbPb2X0A",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "difficult-conversations",
+      "moduleId": "conflict",
+      "title": {
+        "en": "Stay composed in difficult conversations",
+        "ar": "حافظ على اتزانك في الحوار الصعب"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "youtubeId": "OntE3tCaUR0",
+      "url": "https://www.youtube.com/watch?v=OntE3tCaUR0",
+      "questionCount": 7,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "team-development",
+      "moduleId": "teams",
+      "title": {
+        "en": "Team development and the leader's role",
+        "ar": "مراحل تطور الفريق ودور القائد"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "youtubeId": "dGA9P4g8fDM",
+      "url": "https://www.youtube.com/watch?v=dGA9P4g8fDM",
+      "questionCount": 5,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    },
+    {
+      "lessonId": "trust-teamwork",
+      "moduleId": "teams",
+      "title": {
+        "en": "Trust and teamwork: the full conversation",
+        "ar": "الثقة والعمل الجماعي: الحوار الكامل"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "youtubeId": "LZGZDRcLQTk",
+      "url": "https://www.youtube.com/watch?v=LZGZDRcLQTk",
+      "questionCount": 10,
+      "quizSizing": "editorial_complexity",
+      "durationSeconds": null,
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      }
+    }
+  ]
+}

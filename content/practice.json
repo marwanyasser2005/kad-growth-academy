@@ -1,0 +1,1356 @@
+{
+  "version": "1.2.0",
+  "cases": [
+    {
+      "id": "case-1",
+      "moduleId": "essentials",
+      "title": {
+        "en": "Coordinate without a title",
+        "ar": "نسّق دون منصب"
+      },
+      "summary": {
+        "en": "A coordination handoff is stuck. You can facilitate, but you cannot approve technical changes.",
+        "ar": "توقّف تسليم بين تخصصين. تستطيع التنسيق لكنك لا تملك اعتماد تغييرات تقنية."
+      },
+      "context": {
+        "en": "Architecture is waiting for a service-zone clarification. MEP believes an earlier revision is still in use. The submission lead is in another meeting. You have 20 minutes to organize the facts, not to redesign or approve a solution.",
+        "ar": "ينتظر الفريق المعماري توضيحًا لمنطقة خدمات، بينما يعتقد فريق MEP أن نسخة أقدم ما زالت مستخدمة. قائد التسليم في اجتماع آخر. لديك ٢٠ دقيقة لتنظيم الحقائق، وليس لإعادة التصميم أو اعتماد الحل."
+      },
+      "fields": [
+        {
+          "id": "sharedGoal",
+          "label": {
+            "en": "Shared outcome",
+            "ar": "النتيجة المشتركة"
+          },
+          "hint": {
+            "en": "What needs to be clear at the end of the conversation?",
+            "ar": "ما الذي يجب أن يتضح في نهاية المحادثة؟"
+          }
+        },
+        {
+          "id": "facts",
+          "label": {
+            "en": "Facts and unknowns",
+            "ar": "الحقائق والمجهول"
+          },
+          "hint": {
+            "en": "Separate observed revision details from assumptions.",
+            "ar": "افصل تفاصيل الإصدارات المرئية عن الافتراضات."
+          }
+        },
+        {
+          "id": "action",
+          "label": {
+            "en": "Your next action",
+            "ar": "خطوتك التالية"
+          },
+          "hint": {
+            "en": "Who will you invite, and what will you ask?",
+            "ar": "من ستدعوه؟ وبماذا ستسأل؟"
+          }
+        },
+        {
+          "id": "boundary",
+          "label": {
+            "en": "Authority and escalation",
+            "ar": "الصلاحية والتصعيد"
+          },
+          "hint": {
+            "en": "Which decision must go to the authorized lead?",
+            "ar": "ما القرار الذي يجب رفعه للقائد المخوّل؟"
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I defined a shared outcome.",
+          "ar": "حددت نتيجة مشتركة."
+        },
+        {
+          "en": "I identified an owner and a time.",
+          "ar": "حددت مسؤولًا ووقتًا."
+        },
+        {
+          "en": "I respected decision authority.",
+          "ar": "احترمت صلاحية اتخاذ القرار."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Confirm the current revision with both owners, record the unresolved interface, and arrange a short clarification. Send the authorized lead a decision request containing the facts, options, and required response time.",
+        "ar": "أكد الإصدار الحالي مع المسؤولين، وسجل نقطة الربط غير المحسومة، ونظّم توضيحًا مختصرًا. أرسل للقائد المخوّل طلب قرار يتضمن الحقائق والخيارات ووقت الرد المطلوب."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-2",
+      "moduleId": "self-awareness",
+      "title": {
+        "en": "Notice your pressure pattern",
+        "ar": "لاحظ سلوكك تحت الضغط"
+      },
+      "summary": {
+        "en": "Replace a general personality judgment with one observable leadership experiment.",
+        "ar": "استبدل الحكم العام على الشخصية بتجربة قيادية سلوكية محددة."
+      },
+      "context": {
+        "en": "In two recent reviews you interrupted a teammate before they finished explaining a constraint. You thought you were saving time; they felt their input was dismissed. Work with that specific behavior rather than diagnosing either person's personality.",
+        "ar": "في مراجعتين قاطعت زميلًا قبل أن ينتهي من شرح قيد. كنت تعتقد أنك توفر الوقت؛ لكنه شعر بأن مساهمته غير مسموعة. تعامل مع هذا السلوك المحدد دون تشخيص شخصية أي منكما."
+      },
+      "fields": [
+        {
+          "id": "observation",
+          "label": {
+            "en": "What was observable?",
+            "ar": "ما السلوك المرئي؟"
+          },
+          "hint": {
+            "en": "Describe actions without labels such as careless or difficult.",
+            "ar": "صف التصرفات دون أوصاف مثل مهمل أو صعب."
+          }
+        },
+        {
+          "id": "impact",
+          "label": {
+            "en": "Intention and impact",
+            "ar": "النية والأثر"
+          },
+          "hint": {
+            "en": "How did the effect differ from your intention?",
+            "ar": "كيف اختلف الأثر عن نيتك؟"
+          }
+        },
+        {
+          "id": "experiment",
+          "label": {
+            "en": "One small experiment",
+            "ar": "تجربة صغيرة واحدة"
+          },
+          "hint": {
+            "en": "Choose a behavior for your next two reviews.",
+            "ar": "اختر سلوكًا للمراجعتين التاليتين."
+          }
+        },
+        {
+          "id": "evidence",
+          "label": {
+            "en": "How will you check?",
+            "ar": "كيف ستتحقق؟"
+          },
+          "hint": {
+            "en": "Ask for one specific piece of feedback.",
+            "ar": "اطلب ملاحظة محددة واحدة."
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I used an observable example.",
+          "ar": "استخدمت مثالًا قابلًا للملاحظة."
+        },
+        {
+          "en": "My experiment is small and specific.",
+          "ar": "تجربتي صغيرة ومحددة."
+        },
+        {
+          "en": "I chose a feedback checkpoint.",
+          "ar": "اخترت نقطة للتحقق من الأثر."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Try waiting until the speaker finishes, paraphrasing the constraint, then asking one clarification question. After two reviews, ask whether the discussion felt clearer and whether key constraints were captured.",
+        "ar": "جرّب انتظار انتهاء المتحدث، ثم أعد صياغة القيد واسأل سؤال استيضاح واحدًا. بعد مراجعتين، اسأل هل أصبح النقاش أوضح وهل سُجلت القيود المهمة."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-3",
+      "moduleId": "emotional-intelligence",
+      "title": {
+        "en": "Respond, do not react",
+        "ar": "استجب بدل رد الفعل"
+      },
+      "summary": {
+        "en": "Keep empathy, facts, and delivery standards in the same conversation.",
+        "ar": "اجمع التعاطف والحقائق ومعايير التسليم في محادثة واحدة."
+      },
+      "context": {
+        "en": "A teammate sends an irritated message: 'Your changes keep wasting our time.' A deadline is close. You feel defensive, but the message may hide an unclear revision process. No immediate safety incident is involved.",
+        "ar": "أرسل زميل رسالة منفعلة: «تعديلاتكم تضيع وقتنا باستمرار». الموعد قريب وتشعر بالدفاعية، لكن الرسالة قد تخفي غموضًا في عملية الإصدارات. لا توجد واقعة سلامة فورية."
+      },
+      "fields": [
+        {
+          "id": "trigger",
+          "label": {
+            "en": "Trigger and reaction",
+            "ar": "المحفز ورد الفعل"
+          },
+          "hint": {
+            "en": "What do you notice before responding?",
+            "ar": "ماذا تلاحظ قبل الرد؟"
+          }
+        },
+        {
+          "id": "facts",
+          "label": {
+            "en": "Facts versus assumptions",
+            "ar": "الحقائق مقابل الافتراضات"
+          },
+          "hint": {
+            "en": "What do you know, and what are you inferring?",
+            "ar": "ما الذي تعرفه؟ وما الذي تستنتجه؟"
+          }
+        },
+        {
+          "id": "response",
+          "label": {
+            "en": "Your opening response",
+            "ar": "افتتاحية ردك"
+          },
+          "hint": {
+            "en": "Acknowledge the concern without admitting unverified claims.",
+            "ar": "اعترف بالقلق دون الإقرار بادعاءات غير متحققة."
+          }
+        },
+        {
+          "id": "followup",
+          "label": {
+            "en": "Action and follow-up",
+            "ar": "الإجراء والمتابعة"
+          },
+          "hint": {
+            "en": "State the next step and when you will reconnect.",
+            "ar": "حدد الخطوة التالية وموعد العودة للنقاش."
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I separated facts from intent.",
+          "ar": "فصلت الحقائق عن النوايا."
+        },
+        {
+          "en": "My response is respectful and clear.",
+          "ar": "ردي محترم وواضح."
+        },
+        {
+          "en": "I kept an actionable next step.",
+          "ar": "احتفظت بخطوة تالية قابلة للتنفيذ."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Pause before replying. Say that you want to understand which revision created rework, ask for a specific example, and propose a short alignment on the current version and change owner.",
+        "ar": "توقف لحظة قبل الرد. وضح أنك تريد فهم الإصدار الذي تسبب في إعادة العمل، واطلب مثالًا محددًا، واقترح اتفاقًا مختصرًا على النسخة الحالية ومسؤول التغيير."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-4",
+      "moduleId": "communication",
+      "title": {
+        "en": "Turn a meeting into a decision",
+        "ar": "حوّل الاجتماع إلى قرار"
+      },
+      "summary": {
+        "en": "Close the loop on a vague client revision request.",
+        "ar": "أغلق دائرة الفهم حول طلب تعديل مبهم من العميل."
+      },
+      "context": {
+        "en": "The client asks for a 'cleaner entrance' by Thursday. Architecture interprets this as a visual change; landscape assumes scope changes; the project lead needs to know the impact. You are preparing the clarification note.",
+        "ar": "طلب العميل «مدخلًا أبسط» بحلول الخميس. يرى المعماري أنه تعديل بصري، ويفترض فريق اللاندسكيب تغييرات في النطاق، بينما يحتاج قائد المشروع لمعرفة الأثر. أنت تعد مذكرة الاستيضاح."
+      },
+      "fields": [
+        {
+          "id": "questions",
+          "label": {
+            "en": "Clarification questions",
+            "ar": "أسئلة الاستيضاح"
+          },
+          "hint": {
+            "en": "Ask three questions that reveal scope and constraints.",
+            "ar": "اطرح ثلاثة أسئلة تكشف النطاق والقيود."
+          }
+        },
+        {
+          "id": "summary",
+          "label": {
+            "en": "Shared understanding",
+            "ar": "الفهم المشترك"
+          },
+          "hint": {
+            "en": "Write the read-back you would send for confirmation.",
+            "ar": "اكتب الملخص الذي سترسله للتأكيد."
+          }
+        },
+        {
+          "id": "decision",
+          "label": {
+            "en": "Decision log",
+            "ar": "سجل القرار"
+          },
+          "hint": {
+            "en": "Include owner, deliverable, revision, and due date.",
+            "ar": "أدرج المسؤول والمخرج والإصدار والموعد."
+          }
+        },
+        {
+          "id": "dependencies",
+          "label": {
+            "en": "Dependencies",
+            "ar": "الاعتماديات"
+          },
+          "hint": {
+            "en": "What must be agreed before work starts?",
+            "ar": "ما الذي يجب الاتفاق عليه قبل بدء العمل؟"
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I did not treat a vague request as approval.",
+          "ar": "لم أعتبر الطلب المبهم موافقة."
+        },
+        {
+          "en": "I identified the next decision owner.",
+          "ar": "حددت مسؤول القرار التالي."
+        },
+        {
+          "en": "I captured dependencies and timing.",
+          "ar": "سجلت الاعتماديات والتوقيت."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Clarify what 'cleaner' means, which drawings are affected, and whether Thursday is a review or final issue. Confirm the agreed scope, authorized approver, current revision, and response deadline in writing.",
+        "ar": "استوضح معنى «أبسط»، والرسومات المتأثرة، وهل الخميس موعد مراجعة أم إصدار نهائي. أكد كتابيًا النطاق المتفق عليه وصاحب الاعتماد والإصدار الحالي وموعد الرد."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-5",
+      "moduleId": "trust",
+      "title": {
+        "en": "Make it safe to flag a clash",
+        "ar": "شجّع الإبلاغ عن التعارض"
+      },
+      "summary": {
+        "en": "Respond to a concern without lowering the quality standard.",
+        "ar": "استجب للقلق دون خفض معيار الجودة."
+      },
+      "context": {
+        "en": "A junior notices a potential clash shortly before issue. They say, 'I might be wrong, so perhaps we should leave it.' The concern has not yet been technically checked. Your response will shape whether similar risks are raised early.",
+        "ar": "لاحظ موظف مبتدئ تعارضًا محتملًا قبل الإصدار بقليل. قال: «قد أكون مخطئًا، ربما نتركه». لم يُفحص الأمر تقنيًا بعد. استجابتك ستؤثر في الإبلاغ المبكر عن مخاطر مشابهة."
+      },
+      "fields": [
+        {
+          "id": "opening",
+          "label": {
+            "en": "First response",
+            "ar": "الاستجابة الأولى"
+          },
+          "hint": {
+            "en": "Write your first two sentences.",
+            "ar": "اكتب أول جملتين."
+          }
+        },
+        {
+          "id": "verify",
+          "label": {
+            "en": "Verification and ownership",
+            "ar": "التحقق والمسؤولية"
+          },
+          "hint": {
+            "en": "Who checks the issue, and by when?",
+            "ar": "من يفحص المسألة؟ ومتى؟"
+          }
+        },
+        {
+          "id": "standard",
+          "label": {
+            "en": "Quality and escalation",
+            "ar": "الجودة والتصعيد"
+          },
+          "hint": {
+            "en": "What happens if the concern is confirmed?",
+            "ar": "ماذا يحدث إذا تأكد القلق؟"
+          }
+        },
+        {
+          "id": "learning",
+          "label": {
+            "en": "Learning without blame",
+            "ar": "التعلم دون لوم"
+          },
+          "hint": {
+            "en": "What can the team improve after the issue?",
+            "ar": "ما الذي يمكن للفريق تحسينه بعد المسألة؟"
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I thanked the person for raising the issue.",
+          "ar": "شكرت الشخص على طرح المسألة."
+        },
+        {
+          "en": "I did not promise the issue was harmless.",
+          "ar": "لم أعِد بأن المسألة غير خطيرة."
+        },
+        {
+          "en": "I defined verification and escalation.",
+          "ar": "حددت التحقق والتصعيد."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Thank them for flagging it. Ask the authorized discipline owner to check the current drawing and assess impact. Escalate the release decision through the approved process; afterwards, review the handoff, not the person's worth.",
+        "ar": "اشكره على التنبيه. اطلب من مسؤول التخصص المخوّل فحص الرسم الحالي وتقييم الأثر. صعّد قرار الإصدار عبر المسار المعتمد، ثم راجع عملية التسليم لا قيمة الشخص."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-6",
+      "moduleId": "delegation",
+      "title": {
+        "en": "Delegate the outcome",
+        "ar": "فوّض النتيجة"
+      },
+      "summary": {
+        "en": "Create a bounded assignment, not a vague transfer of pressure.",
+        "ar": "صمّم تكليفًا محددًا، لا نقلًا مبهمًا للضغط."
+      },
+      "context": {
+        "en": "You need a coordinated drawing package by the internal review date. A capable colleague is available but new to this project. If you have no delegation authority, frame this as an agreed peer handoff with the lead's approval.",
+        "ar": "تحتاج حزمة رسومات منسقة قبل المراجعة الداخلية. يوجد زميل قادر لكنه جديد على المشروع. إن لم تملك صلاحية التفويض، اجعلها اتفاق تسليم بين زملاء بموافقة القائد."
+      },
+      "fields": [
+        {
+          "id": "outcome",
+          "label": {
+            "en": "Outcome and quality",
+            "ar": "النتيجة والجودة"
+          },
+          "hint": {
+            "en": "Define the package and acceptance criteria.",
+            "ar": "حدد الحزمة ومعايير قبولها."
+          }
+        },
+        {
+          "id": "owner",
+          "label": {
+            "en": "Owner and capacity",
+            "ar": "المسؤول والقدرة"
+          },
+          "hint": {
+            "en": "Who agrees to take ownership, and what support is needed?",
+            "ar": "من يوافق على تحمل المسؤولية؟ وما الدعم المطلوب؟"
+          }
+        },
+        {
+          "id": "authority",
+          "label": {
+            "en": "Authority boundary",
+            "ar": "حد الصلاحية"
+          },
+          "hint": {
+            "en": "What can be decided, and what needs approval?",
+            "ar": "ما الذي يمكن تقريره؟ وما الذي يحتاج موافقة؟"
+          }
+        },
+        {
+          "id": "checkpoint",
+          "label": {
+            "en": "Checkpoint and escalation",
+            "ar": "المتابعة والتصعيد"
+          },
+          "hint": {
+            "en": "Set a useful review point and escalation trigger.",
+            "ar": "حدد نقطة مراجعة مفيدة ومتى يحدث التصعيد."
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "The owner has agreed and has support.",
+          "ar": "وافق المسؤول ولديه دعم."
+        },
+        {
+          "en": "Quality and authority are explicit.",
+          "ar": "الجودة والصلاحية واضحتان."
+        },
+        {
+          "en": "Checkpoints are proportionate.",
+          "ar": "نقاط المتابعة متناسبة."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Specify the current revision, expected coordination checks, due date, and support contact. Agree a mid-point review. Keep scope and approval changes with the authorized lead while letting the owner choose the execution approach.",
+        "ar": "حدد الإصدار الحالي وفحوص التنسيق المطلوبة والموعد وشخص الدعم. اتفق على مراجعة في منتصف العمل. أبقِ تغييرات النطاق والاعتماد لدى القائد المخوّل مع ترك أسلوب التنفيذ للمسؤول."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-7",
+      "moduleId": "feedback",
+      "title": {
+        "en": "Give feedback people can use",
+        "ar": "قدم ملاحظة قابلة للاستخدام"
+      },
+      "summary": {
+        "en": "Be specific, fair, and focused on the next delivery.",
+        "ar": "كن محددًا ومنصفًا وركز على التسليم التالي."
+      },
+      "context": {
+        "en": "The same revision label has been missing from two internal drawing issues. You want to address the pattern without embarrassing the colleague or assuming they are careless. The standard has to be clear.",
+        "ar": "غابت علامة الإصدار نفسها عن إصدارين داخليين للرسومات. تريد معالجة التكرار دون إحراج الزميل أو افتراض إهماله. يجب أن يكون المعيار واضحًا."
+      },
+      "fields": [
+        {
+          "id": "context",
+          "label": {
+            "en": "Context and observation",
+            "ar": "السياق والملاحظة"
+          },
+          "hint": {
+            "en": "Describe the two specific examples.",
+            "ar": "صف المثالين المحددين."
+          }
+        },
+        {
+          "id": "impact",
+          "label": {
+            "en": "Work impact",
+            "ar": "الأثر على العمل"
+          },
+          "hint": {
+            "en": "Why did this matter to the next team?",
+            "ar": "لماذا أثر ذلك على الفريق التالي؟"
+          }
+        },
+        {
+          "id": "dialogue",
+          "label": {
+            "en": "Invite their perspective",
+            "ar": "اطلب وجهة نظره"
+          },
+          "hint": {
+            "en": "What question would reveal the cause?",
+            "ar": "ما السؤال الذي يكشف السبب؟"
+          }
+        },
+        {
+          "id": "agreement",
+          "label": {
+            "en": "Next action and support",
+            "ar": "الإجراء التالي والدعم"
+          },
+          "hint": {
+            "en": "Agree prevention and a review date.",
+            "ar": "اتفق على منع التكرار وموعد المراجعة."
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I described behavior instead of personality.",
+          "ar": "وصفت السلوك لا الشخصية."
+        },
+        {
+          "en": "I asked for context.",
+          "ar": "سألت عن السياق."
+        },
+        {
+          "en": "I set a specific prevention step.",
+          "ar": "حددت خطوة لمنع التكرار."
+        }
+      ],
+      "modelAnswer": {
+        "en": "In a private conversation, identify the missing labels and coordination impact. Ask about the issue process. Agree a pre-issue checklist or template check, then review the next two internal issues.",
+        "ar": "في محادثة خاصة، حدد العلامات الغائبة وأثرها على التنسيق. اسأل عن عملية الإصدار. اتفق على قائمة فحص قبل الإصدار أو فحص القالب، ثم راجع الإصدارين الداخليين التاليين."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-8",
+      "moduleId": "conflict",
+      "title": {
+        "en": "Lead a cross-discipline disagreement",
+        "ar": "أدر خلافًا بين التخصصات"
+      },
+      "summary": {
+        "en": "Make the trade-off explicit before selecting a solution.",
+        "ar": "وضّح المفاضلة قبل اختيار الحل."
+      },
+      "context": {
+        "en": "Architecture prefers an uninterrupted ceiling. MEP requires service clearance. The client wants no schedule impact. You are facilitating, not replacing engineering judgment or contractual approval.",
+        "ar": "يفضل المعماري سقفًا متصلًا، ويتطلب MEP خلوصًا للخدمات، ويريد العميل ألا يتأثر الجدول. دورك التيسير، وليس استبدال الحكم الهندسي أو الاعتماد التعاقدي."
+      },
+      "fields": [
+        {
+          "id": "objective",
+          "label": {
+            "en": "Shared objective",
+            "ar": "الهدف المشترك"
+          },
+          "hint": {
+            "en": "State the goal without favoring a discipline.",
+            "ar": "حدد الهدف دون تفضيل تخصص."
+          }
+        },
+        {
+          "id": "constraints",
+          "label": {
+            "en": "Non-negotiable constraints",
+            "ar": "القيود غير القابلة للتجاوز"
+          },
+          "hint": {
+            "en": "Separate evidence, preference, and unknowns.",
+            "ar": "افصل الأدلة والتفضيلات والمجهول."
+          }
+        },
+        {
+          "id": "options",
+          "label": {
+            "en": "Options and trade-offs",
+            "ar": "الخيارات والمفاضلات"
+          },
+          "hint": {
+            "en": "Compare two options without inventing technical facts.",
+            "ar": "قارن خيارين دون اختلاق حقائق تقنية."
+          }
+        },
+        {
+          "id": "decision",
+          "label": {
+            "en": "Decision or escalation",
+            "ar": "القرار أو التصعيد"
+          },
+          "hint": {
+            "en": "Who decides, what must be recorded, and by when?",
+            "ar": "من يقرر؟ وماذا يُوثق؟ ومتى؟"
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "I separated people from the issue.",
+          "ar": "فصلت الأشخاص عن المشكلة."
+        },
+        {
+          "en": "I made constraints and unknowns explicit.",
+          "ar": "وضحت القيود والمجهول."
+        },
+        {
+          "en": "I identified the authorized decision owner.",
+          "ar": "حددت صاحب صلاحية القرار."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Agree the performance objective and gather verified clearance and design requirements. Compare feasible options with the discipline owners. Record the trade-off, schedule implications, and approval request; do not make an unauthorized technical compromise.",
+        "ar": "اتفق على الهدف واجمع متطلبات الخلوص والتصميم المتحققة. قارن الخيارات الممكنة مع مسؤولي التخصصات. سجل المفاضلة وأثر الجدول وطلب الاعتماد؛ ولا تقدم تنازلًا تقنيًا غير مخوّل."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    },
+    {
+      "id": "case-9",
+      "moduleId": "teams",
+      "title": {
+        "en": "Build the team's working agreement",
+        "ar": "ابنِ اتفاق العمل للفريق"
+      },
+      "summary": {
+        "en": "Give a new project team a shared way to work.",
+        "ar": "امنح فريق مشروع جديد طريقة عمل مشتركة."
+      },
+      "context": {
+        "en": "A new team combines architecture, landscape, MEP, and project management. People are experienced but use different handoff and escalation habits. Prepare a lightweight working agreement, then test it in one coordination cycle.",
+        "ar": "يجمع فريق جديد المعماري واللاندسكيب وMEP وإدارة المشاريع. الأعضاء ذوو خبرة لكن عادات التسليم والتصعيد مختلفة. أعد اتفاق عمل خفيفًا ثم اختبره في دورة تنسيق واحدة."
+      },
+      "fields": [
+        {
+          "id": "purpose",
+          "label": {
+            "en": "Purpose and roles",
+            "ar": "الهدف والأدوار"
+          },
+          "hint": {
+            "en": "What is shared, and who owns the interfaces?",
+            "ar": "ما الهدف المشترك؟ ومن يملك نقاط الربط؟"
+          }
+        },
+        {
+          "id": "communication",
+          "label": {
+            "en": "Communication norms",
+            "ar": "قواعد التواصل"
+          },
+          "hint": {
+            "en": "Choose channels, response expectations, and decision records.",
+            "ar": "اختر القنوات وتوقعات الرد وسجلات القرار."
+          }
+        },
+        {
+          "id": "handoff",
+          "label": {
+            "en": "Handoff standard",
+            "ar": "معيار التسليم"
+          },
+          "hint": {
+            "en": "Define what must accompany an internal issue.",
+            "ar": "حدد ما يصاحب كل إصدار داخلي."
+          }
+        },
+        {
+          "id": "review",
+          "label": {
+            "en": "Review and adaptation",
+            "ar": "المراجعة والتكيف"
+          },
+          "hint": {
+            "en": "When will the team review whether the agreement worked?",
+            "ar": "متى يراجع الفريق مدى نجاح الاتفاق؟"
+          }
+        }
+      ],
+      "rubric": [
+        {
+          "en": "The agreement names roles and interfaces.",
+          "ar": "يسمي الاتفاق الأدوار ونقاط الربط."
+        },
+        {
+          "en": "It includes an escalation route.",
+          "ar": "يتضمن مسارًا للتصعيد."
+        },
+        {
+          "en": "It will be tested and reviewed.",
+          "ar": "سيتم اختباره ومراجعته."
+        }
+      ],
+      "modelAnswer": {
+        "en": "Agree roles, version naming, handoff requirements, decision records, and escalation boundaries. After one cycle, review one successful handoff and one friction point, then adjust the agreement.",
+        "ar": "اتفق على الأدوار وتسمية الإصدارات ومتطلبات التسليم وسجلات القرار وحدود التصعيد. بعد دورة واحدة، راجع تسليمًا ناجحًا ونقطة احتكاك ثم عدّل الاتفاق."
+      },
+      "minutes": 15,
+      "hypothetical": true
+    }
+  ],
+  "tools": [
+    {
+      "id": "manual",
+      "title": {
+        "en": "Leadership operating manual",
+        "ar": "دليل أسلوبي القيادي"
+      },
+      "moduleId": "essentials",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "What I stand for",
+            "ar": "ما ألتزم به"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "How I communicate",
+            "ar": "كيف أتواصل"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "My decision boundaries",
+            "ar": "حدود قراراتي"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "How to raise a concern with me",
+            "ar": "كيف تطرح قلقًا معي"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "One behavior I am developing",
+            "ar": "سلوك أعمل على تطويره"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "title": {
+        "en": "Reflection journal",
+        "ar": "مذكرة التأمل"
+      },
+      "moduleId": "self-awareness",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Situation",
+            "ar": "الموقف"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Observable behavior",
+            "ar": "السلوك المرئي"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Intention versus impact",
+            "ar": "النية مقابل الأثر"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "One experiment",
+            "ar": "تجربة واحدة"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Feedback checkpoint",
+            "ar": "نقطة التحقق"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pause",
+      "title": {
+        "en": "Pause and respond",
+        "ar": "توقف واستجب"
+      },
+      "moduleId": "emotional-intelligence",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Trigger",
+            "ar": "المحفز"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "What I feel",
+            "ar": "ما أشعر به"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Facts I know",
+            "ar": "الحقائق التي أعرفها"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Assumptions to test",
+            "ar": "افتراضات تحتاج اختبارًا"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Respectful next response",
+            "ar": "الاستجابة التالية المحترمة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meeting",
+      "title": {
+        "en": "Decision and meeting log",
+        "ar": "سجل الاجتماع والقرار"
+      },
+      "moduleId": "communication",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Meeting purpose",
+            "ar": "هدف الاجتماع"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Decision and rationale",
+            "ar": "القرار ومبرراته"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Owner and deadline",
+            "ar": "المسؤول والموعد"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Dependencies and open questions",
+            "ar": "الاعتماديات والأسئلة المفتوحة"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Confirmation and follow-up",
+            "ar": "التأكيد والمتابعة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speak-up",
+      "title": {
+        "en": "Speak-up and learning check",
+        "ar": "فحص الإبلاغ والتعلم"
+      },
+      "moduleId": "trust",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Concern raised",
+            "ar": "القلق المطروح"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "First response",
+            "ar": "الاستجابة الأولى"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Verification owner",
+            "ar": "مسؤول التحقق"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Quality or escalation action",
+            "ar": "إجراء الجودة أو التصعيد"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Process improvement",
+            "ar": "تحسين العملية"
+          }
+        }
+      ]
+    },
+    {
+      "id": "delegation",
+      "title": {
+        "en": "Delegation canvas",
+        "ar": "نموذج التفويض"
+      },
+      "moduleId": "delegation",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Outcome and acceptance criteria",
+            "ar": "النتيجة ومعايير القبول"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Owner and agreed scope",
+            "ar": "المسؤول والنطاق المتفق عليه"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Authority and boundaries",
+            "ar": "الصلاحية والحدود"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Resources and support",
+            "ar": "الموارد والدعم"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Due date and checkpoints",
+            "ar": "الموعد ونقاط المتابعة"
+          }
+        },
+        {
+          "id": "f6",
+          "label": {
+            "en": "Escalation trigger",
+            "ar": "محفز التصعيد"
+          }
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": {
+        "en": "Feedback conversation",
+        "ar": "محادثة الملاحظات"
+      },
+      "moduleId": "feedback",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Context",
+            "ar": "السياق"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Observed behavior",
+            "ar": "السلوك المرئي"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Work impact",
+            "ar": "الأثر على العمل"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Their perspective",
+            "ar": "وجهة نظر الطرف الآخر"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Agreed next action and support",
+            "ar": "الإجراء التالي والدعم"
+          }
+        },
+        {
+          "id": "f6",
+          "label": {
+            "en": "Review date",
+            "ar": "تاريخ المراجعة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "title": {
+        "en": "Conflict decision card",
+        "ar": "بطاقة قرار الخلاف"
+      },
+      "moduleId": "conflict",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Shared objective",
+            "ar": "الهدف المشترك"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Facts and constraints",
+            "ar": "الحقائق والقيود"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Options and trade-offs",
+            "ar": "الخيارات والمفاضلات"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Recommendation and uncertainty",
+            "ar": "التوصية وعدم اليقين"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Decision owner and due date",
+            "ar": "صاحب القرار والموعد"
+          }
+        },
+        {
+          "id": "f6",
+          "label": {
+            "en": "Record and escalation",
+            "ar": "التوثيق والتصعيد"
+          }
+        }
+      ]
+    },
+    {
+      "id": "agreement",
+      "title": {
+        "en": "Team working agreement",
+        "ar": "اتفاق عمل الفريق"
+      },
+      "moduleId": "teams",
+      "fields": [
+        {
+          "id": "f1",
+          "label": {
+            "en": "Purpose and roles",
+            "ar": "الهدف والأدوار"
+          }
+        },
+        {
+          "id": "f2",
+          "label": {
+            "en": "Channels and response expectations",
+            "ar": "القنوات وتوقعات الرد"
+          }
+        },
+        {
+          "id": "f3",
+          "label": {
+            "en": "Handoff and revision rules",
+            "ar": "قواعد التسليم والإصدارات"
+          }
+        },
+        {
+          "id": "f4",
+          "label": {
+            "en": "Decision and escalation rights",
+            "ar": "صلاحيات القرار والتصعيد"
+          }
+        },
+        {
+          "id": "f5",
+          "label": {
+            "en": "Quality checkpoints",
+            "ar": "نقاط الجودة"
+          }
+        },
+        {
+          "id": "f6",
+          "label": {
+            "en": "Review rhythm",
+            "ar": "دورية المراجعة"
+          }
+        }
+      ]
+    }
+  ],
+  "futureTracks": [
+    {
+      "id": "communication",
+      "title": {
+        "en": "Professional communication",
+        "ar": "التواصل المهني"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "title": {
+        "en": "Teamwork and collaboration",
+        "ar": "العمل الجماعي والتعاون"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "emotional-intelligence",
+      "title": {
+        "en": "Emotional intelligence",
+        "ar": "الذكاء العاطفي"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "conflict-negotiation",
+      "title": {
+        "en": "Conflict and negotiation",
+        "ar": "إدارة الخلاف والتفاوض"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "problem-solving",
+      "title": {
+        "en": "Problem solving and decisions",
+        "ar": "حل المشكلات واتخاذ القرار"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "time-priorities",
+      "title": {
+        "en": "Time and priority management",
+        "ar": "إدارة الوقت والأولويات"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "title": {
+        "en": "Client and stakeholder management",
+        "ar": "إدارة العملاء وأصحاب المصلحة"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "presentation",
+      "title": {
+        "en": "Presentation and storytelling",
+        "ar": "العرض والسرد"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "coaching",
+      "title": {
+        "en": "Coaching and mentoring",
+        "ar": "التوجيه والإرشاد"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "change",
+      "title": {
+        "en": "Change and adaptability",
+        "ar": "التغيير والتكيف"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    },
+    {
+      "id": "advanced-leadership",
+      "title": {
+        "en": "Advanced leadership",
+        "ar": "القيادة المتقدمة"
+      },
+      "status": "draft",
+      "visible": false,
+      "publishGate": [
+        "Editorial review",
+        "Video and rights check",
+        "Bilingual quizzes",
+        "Applied assessment",
+        "Accessibility QA"
+      ]
+    }
+  ]
+}

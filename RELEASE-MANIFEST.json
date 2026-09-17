@@ -1,0 +1,37 @@
+{
+  "name": "KAD Growth Academy",
+  "release": "1.0.0",
+  "edition": "open_local_first",
+  "auth": "disabled",
+  "backend": "not_connected",
+  "deployment": "not_published",
+  "content": {
+    "activeTracks": 1,
+    "modules": 9,
+    "lessons": 20,
+    "languages": {
+      "ar": 11,
+      "en": 9
+    },
+    "questions": 119,
+    "practiceCases": 9,
+    "tools": 9,
+    "hiddenFutureBlueprints": 11
+  },
+  "verification": {
+    "nodeTests": {
+      "passed": 26,
+      "total": 26
+    },
+    "browserAssertions": {
+      "passed": 326,
+      "total": 326
+    },
+    "browserEnvironment": "Chromium set_content with test-only localStorage shim",
+    "liveYoutubePlayback": "not_verified",
+    "realOriginPersistence": "requires_deployment_smoke_test",
+    "institutionalReuse": "review_required"
+  },
+  "standaloneSHA256": "250f60406b4760ee614142e687d8c81f1afbd0640cf1e95cd4cba90624323a03",
+  "originalLogoSHA256": "4dda6483f17eb0e6f057656f68f628616785d71cc0ca13d1c7ca0f4620685658"
+}

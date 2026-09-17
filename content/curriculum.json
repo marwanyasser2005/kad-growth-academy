@@ -1,0 +1,1192 @@
+{
+  "version": "1.2.0",
+  "publishedAt": "2026-09-17",
+  "track": {
+    "id": "leadership",
+    "title": {
+      "en": "Leadership Foundation",
+      "ar": "أساسيات القيادة"
+    },
+    "weeks": 8,
+    "status": "published"
+  },
+  "modules": [
+    {
+      "id": "essentials",
+      "number": 1,
+      "title": {
+        "en": "Leadership essentials",
+        "ar": "أساسيات القيادة"
+      },
+      "icon": "compass",
+      "description": {
+        "en": "Influence before authority.",
+        "ar": "التأثير قبل السلطة."
+      },
+      "practiceId": "case-1",
+      "week": 1
+    },
+    {
+      "id": "self-awareness",
+      "number": 2,
+      "title": {
+        "en": "Know yourself",
+        "ar": "اعرف نفسك"
+      },
+      "icon": "fingerprint",
+      "description": {
+        "en": "Understand your patterns. Choose your response.",
+        "ar": "افهم أسلوبك واختر استجابتك."
+      },
+      "practiceId": "case-2",
+      "week": 2
+    },
+    {
+      "id": "emotional-intelligence",
+      "number": 3,
+      "title": {
+        "en": "Emotional intelligence",
+        "ar": "الذكاء العاطفي"
+      },
+      "icon": "heart",
+      "description": {
+        "en": "Lead with empathy and clear boundaries.",
+        "ar": "قُد بتعاطف وحدود واضحة."
+      },
+      "practiceId": "case-3",
+      "week": 3
+    },
+    {
+      "id": "communication",
+      "number": 4,
+      "title": {
+        "en": "Communicate with clarity",
+        "ar": "تواصل بوضوح"
+      },
+      "icon": "message",
+      "description": {
+        "en": "Listen, clarify, and close the loop.",
+        "ar": "استمع، استوضح، وأكّد الاتفاق."
+      },
+      "practiceId": "case-4",
+      "week": 4
+    },
+    {
+      "id": "trust",
+      "number": 5,
+      "title": {
+        "en": "Build trust",
+        "ar": "ابنِ الثقة"
+      },
+      "icon": "shield",
+      "description": {
+        "en": "Make it safe to speak and own the outcome.",
+        "ar": "شجّع المصارحة وتحمل المسؤولية."
+      },
+      "practiceId": "case-5",
+      "week": 5
+    },
+    {
+      "id": "delegation",
+      "number": 6,
+      "title": {
+        "en": "Delegate with purpose",
+        "ar": "فوّض بهدف"
+      },
+      "icon": "layers",
+      "description": {
+        "en": "Give ownership, not just tasks.",
+        "ar": "امنح مسؤولية واضحة، لا مجرد مهام."
+      },
+      "practiceId": "case-6",
+      "week": 6
+    },
+    {
+      "id": "feedback",
+      "number": 7,
+      "title": {
+        "en": "Feedback & coaching",
+        "ar": "الملاحظات والتوجيه"
+      },
+      "icon": "chat",
+      "description": {
+        "en": "Turn useful conversations into growth.",
+        "ar": "حوّل الحوار البنّاء إلى نمو."
+      },
+      "practiceId": "case-7",
+      "week": 7
+    },
+    {
+      "id": "conflict",
+      "number": 8,
+      "title": {
+        "en": "Lead through disagreement",
+        "ar": "قُد خلال الخلاف"
+      },
+      "icon": "arrows",
+      "description": {
+        "en": "Resolve the issue. Respect the people.",
+        "ar": "عالج المشكلة واحترم الأشخاص."
+      },
+      "practiceId": "case-8",
+      "week": 8
+    },
+    {
+      "id": "teams",
+      "number": 9,
+      "title": {
+        "en": "Lead the team",
+        "ar": "قُد الفريق"
+      },
+      "icon": "users",
+      "description": {
+        "en": "Align disciplines around a shared result.",
+        "ar": "وحّد التخصصات حول نتيجة مشتركة."
+      },
+      "practiceId": "case-9",
+      "week": 8
+    }
+  ],
+  "lessons": [
+    {
+      "id": "what-is-leadership",
+      "moduleId": "essentials",
+      "youtubeId": "ieYl_Uht-_k",
+      "title": {
+        "en": "What is leadership?",
+        "ar": "ما هي القيادة؟"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Leadership is a practice of helping people move toward a shared purpose. A title may grant authority; it does not automatically create trust or influence.",
+          "ar": "القيادة ممارسة تساعد الناس على العمل نحو هدف مشترك. المنصب قد يمنح سلطة، لكنه لا يصنع الثقة أو التأثير تلقائيًا."
+        },
+        {
+          "en": "In a design team, leadership can mean making a coordination issue visible, inviting the relevant disciplines, and agreeing on the next responsible action.",
+          "ar": "في فريق التصميم، قد تعني القيادة إظهار مشكلة التنسيق، وإشراك التخصصات المعنية، والاتفاق على الخطوة التالية والمسؤول عنها."
+        },
+        {
+          "en": "Judge the action by clarity, ownership, and the shared outcome, not by who speaks most or works the longest.",
+          "ar": "قيّم التصرف بوضوح الهدف والمسؤولية والنتيجة المشتركة، لا بكثرة الكلام أو طول ساعات العمل."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Distinguish influence from job title.",
+          "ar": "ميّز التأثير عن المسمى الوظيفي."
+        },
+        {
+          "en": "Choose a responsible first step.",
+          "ar": "اختر أول خطوة مسؤولة."
+        }
+      ],
+      "application": {
+        "en": "Identify one coordination issue you can help clarify without bypassing the project lead.",
+        "ar": "حدّد مشكلة تنسيق يمكنك المساعدة في توضيحها دون تجاوز قائد المشروع."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "great-leader",
+      "moduleId": "essentials",
+      "youtubeId": "LU84BFFqKvI",
+      "title": {
+        "en": "What it takes to be a great leader",
+        "ar": "ما الذي يصنع قائدًا فعّالًا؟"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Use humility and professional resolve together: remain open to better evidence while taking responsibility for the result.",
+          "ar": "اجمع بين التواضع والإصرار المهني: انفتح على الأدلة الأفضل وتحمل مسؤولية النتيجة."
+        },
+        {
+          "en": "Give colleagues credit for contributions. When work falls short, examine your decisions and the system instead of protecting your image.",
+          "ar": "انسب الفضل إلى أصحاب المساهمات. وعند القصور، راجع قراراتك وطريقة العمل بدل حماية صورتك."
+        },
+        {
+          "en": "A sustainable leadership contribution makes the team capable of succeeding without constant rescue by one individual.",
+          "ar": "المساهمة القيادية المستدامة تجعل الفريق قادرًا على النجاح دون إنقاذ متكرر من شخص واحد."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Balance humility with accountability.",
+          "ar": "وازن التواضع والمساءلة."
+        },
+        {
+          "en": "Recognize team-first leadership.",
+          "ar": "تعرّف على القيادة التي تقدّم مصلحة الفريق."
+        }
+      ],
+      "application": {
+        "en": "In your next design review, name a colleague's contribution and one assumption you are willing to revise.",
+        "ar": "في مراجعة التصميم التالية، اذكر مساهمة زميل وافتراضًا أنت مستعد لمراجعته."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "management-and-leadership",
+      "moduleId": "essentials",
+      "youtubeId": "a5oKAWzy4F8",
+      "title": {
+        "en": "Management and leadership in projects",
+        "ar": "الإدارة والقيادة في المشروعات"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Management and leadership are complementary practices. Planning, resources, and follow-up help delivery; direction, influence, and alignment help people act together.",
+          "ar": "الإدارة والقيادة ممارستان متكاملتان. التخطيط والموارد والمتابعة تساعد التسليم؛ والتوجيه والتأثير وتوحيد الفهم تساعد العمل المشترك."
+        },
+        {
+          "en": "A project may have an excellent schedule but unclear priorities. It can also have an inspiring purpose and poor execution. Both gaps need attention.",
+          "ar": "قد يمتلك المشروع جدولًا ممتازًا وأولويات غامضة، أو هدفًا ملهمًا وتنفيذًا ضعيفًا. كلا النقصين يحتاج معالجة."
+        },
+        {
+          "en": "Make a decision explicit: what is agreed, who owns it, when it is due, and what depends on it. Escalate decisions beyond your authority.",
+          "ar": "وضّح القرار: ما المتفق عليه، ومن المسؤول، ومتى الموعد، وما الاعتماديات. صعّد ما يتجاوز صلاحيتك."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Use planning and influence together.",
+          "ar": "استخدم التخطيط والتأثير معًا."
+        },
+        {
+          "en": "Clarify decision ownership.",
+          "ar": "وضّح مسؤولية القرار."
+        }
+      ],
+      "application": {
+        "en": "Turn one meeting conclusion into a decision, owner, deadline, and dependency.",
+        "ar": "حوّل خلاصة اجتماع إلى قرار ومسؤول وموعد واعتمادية."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "leader-traits",
+      "moduleId": "self-awareness",
+      "youtubeId": "O_sbecnb45M",
+      "title": {
+        "en": "Personal traits and emotional awareness",
+        "ar": "سمات القائد والوعي العاطفي"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Self-awareness starts by noticing the gap between your intention and your observable behavior, especially under delivery pressure.",
+          "ar": "يبدأ الوعي الذاتي بملاحظة الفرق بين نيتك وسلوكك الملحوظ، خصوصًا تحت ضغط التسليم."
+        },
+        {
+          "en": "Ask for a specific example rather than a personality label. A colleague can describe an interruption more usefully than call someone a bad listener.",
+          "ar": "اطلب مثالًا محددًا بدل وصف الشخصية. وصف مقاطعة حدثت أكثر فائدة من وصف شخص بأنه مستمع سيئ."
+        },
+        {
+          "en": "Choose one behavior to practice and one observation to track. Reflection is not a diagnosis and does not establish suitability for a promotion.",
+          "ar": "اختر سلوكًا واحدًا للتدرب عليه وملاحظة لمتابعته. التأمل ليس تشخيصًا ولا يثبت الأهلية للترقية."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Notice pressure triggers.",
+          "ar": "لاحظ محفزات الضغط."
+        },
+        {
+          "en": "Turn feedback into a behavior experiment.",
+          "ar": "حوّل الملاحظات إلى تجربة سلوكية."
+        }
+      ],
+      "application": {
+        "en": "Ask a colleague: when did my communication help, and when did it make your task harder?",
+        "ar": "اسأل زميلًا: متى ساعدك تواصلي، ومتى جعل مهمتك أصعب؟"
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "big-five",
+      "moduleId": "self-awareness",
+      "youtubeId": "vtr7aPzqGQg",
+      "title": {
+        "en": "The Big Five as a reflection lens",
+        "ar": "العوامل الخمسة الكبرى كأداة للتأمل"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "The Big Five describes broad personality dimensions: openness, conscientiousness, extraversion, agreeableness, and neuroticism. It is not a list of five ideal leader types.",
+          "ar": "تصف العوامل الخمسة أبعادًا عامة للشخصية: الانفتاح، ويقظة الضمير، والانبساط، والمقبولية، والعصابية. وليست خمسة أنواع مثالية للقادة."
+        },
+        {
+          "en": "Use the model to ask better questions about your habits. Do not label colleagues, diagnose them, or infer performance from a single trait.",
+          "ar": "استخدم النموذج لفهم عاداتك. لا تصنّف الزملاء أو تشخّصهم أو تستنتج أداءهم من سمة واحدة."
+        },
+        {
+          "en": "A quiet colleague can lead through preparation, expertise, and thoughtful questions. A talkative colleague still needs listening and follow-through.",
+          "ar": "يمكن للزميل الهادئ القيادة بالتحضير والخبرة والأسئلة المدروسة. والزميل كثير الكلام يحتاج أيضًا إلى الاستماع والمتابعة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Recognize broad trait dimensions.",
+          "ar": "تعرّف على الأبعاد العامة للسمات."
+        },
+        {
+          "en": "Avoid personality stereotypes.",
+          "ar": "تجنّب القوالب النمطية للشخصية."
+        }
+      ],
+      "application": {
+        "en": "Write one habit that helps coordination and one adjustment that would make you easier to work with.",
+        "ar": "اكتب عادة تساعد التنسيق وتعديلًا يجعلك أسهل في التعاون."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "human-needs",
+      "moduleId": "self-awareness",
+      "youtubeId": "RJkW1ovaMo0",
+      "title": {
+        "en": "Human needs and motivation",
+        "ar": "الاحتياجات الإنسانية والدافعية"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Maslow's model is a way to reflect on different human needs, including security, belonging, esteem, and growth. Treat it as a lens, not a universal fixed sequence.",
+          "ar": "نموذج ماسلو وسيلة للتأمل في احتياجات مثل الأمان والانتماء والتقدير والنمو. تعامل معه كعدسة للفهم، لا تسلسل ثابت ينطبق على الجميع."
+        },
+        {
+          "en": "Do not assume that everyone is motivated by the same reward. Ask about work conditions, resources, recognition, and development opportunities.",
+          "ar": "لا تفترض أن المكافأة نفسها تحفّز الجميع. اسأل عن ظروف العمل والموارد والتقدير وفرص التطور."
+        },
+        {
+          "en": "A motivational speech will not resolve missing information or an unmanageable workload. Address the practical barrier as well as the human need.",
+          "ar": "لن تعالج كلمة تحفيزية نقص المعلومات أو عبء العمل غير الممكن. عالج العائق العملي مع الاحتياج الإنساني."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Explore individual motivators.",
+          "ar": "استكشف دوافع الأفراد."
+        },
+        {
+          "en": "Distinguish motivation from missing resources.",
+          "ar": "ميّز الدافعية عن نقص الموارد."
+        }
+      ],
+      "application": {
+        "en": "In a check-in, ask which obstacle and which support would most improve this week's work.",
+        "ar": "في متابعة قصيرة، اسأل عن العائق والدعم الأكثر تأثيرًا على عمل هذا الأسبوع."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "emotional-intelligence",
+      "moduleId": "emotional-intelligence",
+      "youtubeId": "G7OzFyilUOM",
+      "title": {
+        "en": "Emotional intelligence in practice",
+        "ar": "الذكاء العاطفي في الممارسة"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Emotional awareness means recognizing your feelings and noticing their effect on your behavior. Regulation means choosing a useful response, not denying the feeling.",
+          "ar": "الوعي العاطفي يعني إدراك مشاعرك وملاحظة أثرها على سلوكك. وتنظيمها يعني اختيار استجابة مفيدة، لا إنكار الشعور."
+        },
+        {
+          "en": "Empathy involves trying to understand another person's perspective and checking your interpretation. It is not mind-reading, automatic agreement, or removing standards.",
+          "ar": "التعاطف محاولة فهم منظور الآخر والتحقق من تفسيرك. ليس قراءة أفكار، أو موافقة تلقائية، أو إلغاء معايير العمل."
+        },
+        {
+          "en": "Before a difficult reply, pause, separate observable facts from your interpretation, and ask a clarifying question. Serious safety or conduct issues still need the proper escalation.",
+          "ar": "قبل رد صعب، توقف وافصل الوقائع عن تفسيرك واطرح سؤالًا توضيحيًا. وتظل مخاطر السلامة أو السلوك الجسيم بحاجة إلى التصعيد المناسب."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Separate feeling, fact, and interpretation.",
+          "ar": "افصل الشعور والواقعة والتفسير."
+        },
+        {
+          "en": "Use empathy with boundaries.",
+          "ar": "استخدم التعاطف مع حدود واضحة."
+        }
+      ],
+      "application": {
+        "en": "Rewrite one reactive email as a fact, a question, and a clear next step. Do not store confidential messages here.",
+        "ar": "أعد صياغة رسالة انفعالية إلى واقعة وسؤال وخطوة واضحة، دون تخزين رسائل سرية هنا."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "emotionally-intelligent-leader",
+      "moduleId": "emotional-intelligence",
+      "youtubeId": "yN3FLEuMU10",
+      "title": {
+        "en": "The emotionally intelligent leader",
+        "ar": "القائد الذكي عاطفيًا"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "A leader's response sets a tone. Acknowledge frustration without passing it to the team through blame or urgency with no priorities.",
+          "ar": "استجابة القائد تحدد نبرة التعامل. اعترف بالإحباط دون نقله للفريق باللوم أو استعجال بلا أولويات."
+        },
+        {
+          "en": "When someone misses a handoff, first distinguish capability, capacity, unclear expectations, and unwillingness. The same intervention does not fit every cause.",
+          "ar": "عند تعثر تسليم داخلي، ميّز بين نقص القدرة والوقت وغموض التوقعات وعدم الالتزام. لا يصلح تدخل واحد لكل سبب."
+        },
+        {
+          "en": "Be clear about the required standard, ask what support is needed, and agree on a checkpoint. Respect and accountability can coexist.",
+          "ar": "وضّح المستوى المطلوب، واسأل عن الدعم اللازم، واتفق على نقطة متابعة. الاحترام والمساءلة يمكن أن يجتمعا."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Choose a proportionate response.",
+          "ar": "اختر استجابة مناسبة للموقف."
+        },
+        {
+          "en": "Protect clarity under pressure.",
+          "ar": "حافظ على الوضوح تحت الضغط."
+        }
+      ],
+      "application": {
+        "en": "Prepare a two-minute check-in for a colleague struggling with an approaching submission.",
+        "ar": "حضّر متابعة مدتها دقيقتان لزميل يواجه صعوبة قبل التسليم."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "communication-intro",
+      "moduleId": "communication",
+      "youtubeId": "e3-cc6bxRjc",
+      "title": {
+        "en": "An introduction to communication",
+        "ar": "مقدمة في التواصل"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "A message is successful when the receiver understands the intended meaning well enough to act. Sending it is not the same as confirming understanding.",
+          "ar": "تنجح الرسالة عندما يفهم المتلقي المقصود بما يكفي للتصرف. إرسالها ليس تأكيدًا على فهمها."
+        },
+        {
+          "en": "Match the channel to the task: a quick conversation can clarify ambiguity; a written record preserves decisions, owners, and dates.",
+          "ar": "اختر القناة حسب المهمة: المحادثة توضح الغموض، والسجل المكتوب يحفظ القرارات والمسؤولين والمواعيد."
+        },
+        {
+          "en": "Use language the other discipline understands, identify the revision being discussed, and invite a read-back of important actions.",
+          "ar": "استخدم لغة يفهمها التخصص الآخر، وحدد إصدار المستند، واطلب إعادة تأكيد الإجراءات المهمة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Confirm a shared understanding.",
+          "ar": "تأكّد من الفهم المشترك."
+        },
+        {
+          "en": "Choose a suitable channel.",
+          "ar": "اختر قناة مناسبة."
+        }
+      ],
+      "application": {
+        "en": "Rewrite a vague handoff request into an explicit deliverable, version, owner, and due time.",
+        "ar": "أعد كتابة طلب تسليم غامض بمخرج وإصدار ومسؤول وموعد واضح."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "communication-value",
+      "moduleId": "communication",
+      "youtubeId": "2ZuT9_BVr1M",
+      "title": {
+        "en": "Why communication matters",
+        "ar": "لماذا التواصل مهم؟"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Communication connects effort across disciplines. Unstated assumptions can cause rework even when each specialist works carefully.",
+          "ar": "يربط التواصل الجهد بين التخصصات. وقد تتسبب الافتراضات غير المعلنة في إعادة العمل رغم دقة كل متخصص."
+        },
+        {
+          "en": "Adapt the level of detail to the audience. A client needs implications and options; a specialist may also need drawings, calculations, and dependencies.",
+          "ar": "كيّف التفاصيل حسب الجمهور. يحتاج العميل الآثار والخيارات؛ وقد يحتاج المتخصص الرسومات والحسابات والاعتماديات أيضًا."
+        },
+        {
+          "en": "Close important exchanges with a shared summary and an invitation to correct it. Silence is not evidence of agreement.",
+          "ar": "اختم النقاشات المهمة بملخص مشترك ودعوة لتصحيحه. الصمت ليس دليل موافقة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Spot costly assumptions.",
+          "ar": "اكتشف الافتراضات المكلفة."
+        },
+        {
+          "en": "Adapt messages to the audience.",
+          "ar": "كيّف رسالتك مع الجمهور."
+        }
+      ],
+      "application": {
+        "en": "Create a three-line client update: status, consequence, and decision needed.",
+        "ar": "اكتب تحديثًا للعميل في ثلاثة أسطر: الحالة والأثر والقرار المطلوب."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "active-listening",
+      "moduleId": "communication",
+      "youtubeId": "aDMtx5ivKK0",
+      "title": {
+        "en": "The art of active listening",
+        "ar": "فن الاستماع الفعّال"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Listen to understand rather than prepare a rebuttal. Remove avoidable distractions and allow the other person to complete their thought.",
+          "ar": "استمع لتفهم بدل تجهيز الرد. أزل المشتتات الممكنة ودع الطرف الآخر يكمل فكرته."
+        },
+        {
+          "en": "Ask open questions, paraphrase the meaning, and check whether you understood correctly. Paraphrasing without genuine attention is not enough.",
+          "ar": "اطرح أسئلة مفتوحة وأعد صياغة المعنى وتحقق من صحة فهمك. تكرار الكلام دون اهتمام حقيقي لا يكفي."
+        },
+        {
+          "en": "Do not jump straight to advice. First clarify whether the person needs understanding, joint problem-solving, or a specific decision.",
+          "ar": "لا تقفز للنصيحة. وضّح أولًا هل يحتاج الشخص إلى الاستماع أم حل مشترك أم قرار محدد."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Ask without leading the answer.",
+          "ar": "اسأل دون توجيه الإجابة."
+        },
+        {
+          "en": "Confirm before proposing solutions.",
+          "ar": "تأكّد قبل اقتراح الحلول."
+        }
+      ],
+      "application": {
+        "en": "In a coordination meeting, summarize the other discipline's constraint before offering your solution.",
+        "ar": "في اجتماع تنسيق، لخّص قيد التخصص الآخر قبل عرض حلك."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "psychological-safety",
+      "moduleId": "trust",
+      "youtubeId": "GZgmoxOgfig",
+      "title": {
+        "en": "What is psychological safety?",
+        "ar": "ما هو الأمان النفسي؟"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Psychological safety concerns whether people can take interpersonal risks such as asking a question, admitting an error, or raising a concern.",
+          "ar": "يتعلق الأمان النفسي بقدرة الأشخاص على تحمل مخاطر اجتماعية مثل طرح سؤال أو الاعتراف بخطأ أو إثارة قلق."
+        },
+        {
+          "en": "It does not mean comfort at all times, automatic consensus, or freedom from accountability. Respectful disagreement and high standards belong together.",
+          "ar": "لا يعني الراحة الدائمة أو الإجماع التلقائي أو غياب المساءلة. الخلاف المحترم والمعايير العالية يمكن أن يجتمعا."
+        },
+        {
+          "en": "Invite concerns, respond constructively, and close the loop. Thanking someone for reporting a drawing clash is compatible with a rigorous correction process.",
+          "ar": "ادعُ لإبداء المخاوف واستجب ببناء ثم تابع النتيجة. شكر من أبلغ عن تعارض لا يتعارض مع تصحيح دقيق."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Distinguish safety from low standards.",
+          "ar": "ميّز الأمان عن خفض المعايير."
+        },
+        {
+          "en": "Respond usefully to bad news.",
+          "ar": "استجب بشكل مفيد للأخبار غير المريحة."
+        }
+      ],
+      "application": {
+        "en": "Draft your first response to a junior who identifies a potentially serious issue just before submission.",
+        "ar": "اكتب أول رد على موظف مبتدئ اكتشف مشكلة محتملة قبل التسليم."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "trust-and-performance",
+      "moduleId": "trust",
+      "youtubeId": "P8ojeO9za84",
+      "title": {
+        "en": "Trust and high-performing teams",
+        "ar": "الثقة وفرق الأداء العالي"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Trust is built through consistent behavior: keep commitments, disclose relevant uncertainty, and treat colleagues fairly when pressure rises.",
+          "ar": "تُبنى الثقة بسلوك متسق: أوفِ بالالتزامات، ووضّح عدم اليقين، وعامل الزملاء بإنصاف عند الضغط."
+        },
+        {
+          "en": "Do not excuse harmful behavior because an individual produces impressive technical work. Also do not treat goodwill as a substitute for capability.",
+          "ar": "لا تبرر السلوك المؤذي بسبب التميز الفني، ولا تجعل حسن النية بديلًا عن الكفاءة."
+        },
+        {
+          "en": "Repair a missed commitment by acknowledging the impact and agreeing on a credible recovery, not by making a bigger unsupported promise.",
+          "ar": "أصلح الالتزام الذي لم تنفذه بالاعتراف بالأثر وخطة تعافٍ واقعية، لا بوعد أكبر غير مدعوم."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Recognize trust-building behaviors.",
+          "ar": "تعرّف على السلوكيات التي تبني الثقة."
+        },
+        {
+          "en": "Balance capability and conduct.",
+          "ar": "وازن الكفاءة والسلوك."
+        }
+      ],
+      "application": {
+        "en": "Pick one commitment and make the owner, delivery date, and escalation point explicit.",
+        "ar": "اختر التزامًا ووضّح المسؤول والموعد ونقطة التصعيد."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "delegation",
+      "moduleId": "delegation",
+      "youtubeId": "-rnGUbhFhdg",
+      "title": {
+        "en": "The power of letting go",
+        "ar": "قوة التفويض ومنح المسؤولية"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Delegation gives a person responsibility for an outcome with clear boundaries. Simply assigning an action while withholding every decision creates dependency.",
+          "ar": "يمنح التفويض مسؤولية نتيجة بحدود واضحة. تكليف إجراء مع حجب كل القرارات يصنع اعتمادًا دائمًا."
+        },
+        {
+          "en": "Agree on outcome, quality criteria, owner, authority, resources, deadline, checkpoints, and escalation triggers. Delegation does not remove the leader's oversight duty.",
+          "ar": "اتفق على النتيجة ومعيار الجودة والمسؤول والصلاحية والموارد والموعد والمتابعة والتصعيد. التفويض لا يلغي واجب الإشراف."
+        },
+        {
+          "en": "Match autonomy to task risk and demonstrated readiness. For a learner without line authority, use an agreed collaboration handoff rather than pretend to assign work.",
+          "ar": "ناسب الاستقلالية مع مخاطر المهمة والاستعداد المثبت. ومن دون سلطة إدارية، استخدم تسليمًا تعاونيًا متفقًا عليه بدل تكليف الآخرين من جانب واحد."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Define a delegation agreement.",
+          "ar": "حدّد اتفاق تفويض."
+        },
+        {
+          "en": "Use proportionate checkpoints.",
+          "ar": "استخدم متابعة تناسب المخاطر."
+        }
+      ],
+      "application": {
+        "en": "Complete a delegation canvas for a drawing package or a consensual peer handoff.",
+        "ar": "أكمل نموذج التفويض لحزمة رسومات أو تسليم تعاوني متفق عليه."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "useful-feedback",
+      "moduleId": "feedback",
+      "youtubeId": "MmkTKE5B7Q4",
+      "title": {
+        "en": "Helpful and unhelpful feedback",
+        "ar": "الملاحظات المفيدة وغير المفيدة"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Useful feedback is specific enough to act on. Describe observable behavior and its impact rather than making a sweeping judgment about the person.",
+          "ar": "الملاحظة المفيدة محددة بما يكفي للتطبيق. صِف السلوك الملحوظ وأثره بدل الحكم العام على الشخص."
+        },
+        {
+          "en": "The academy practice tool uses context, observed behavior, impact, and a next step. Ask for the person's perspective before deciding the cause.",
+          "ar": "تستخدم أداة البرنامج السياق والسلوك الملحوظ والأثر والخطوة التالية. اسأل عن منظور الشخص قبل تحديد السبب."
+        },
+        {
+          "en": "Offer feedback in a suitable setting and close with an agreed action. Recognition should also name a specific contribution so that it can be repeated.",
+          "ar": "قدّم الملاحظة في سياق مناسب واختم بإجراء متفق عليه. ويُفضّل أن يذكر التقدير مساهمة محددة يمكن تكرارها."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Replace judgments with observations.",
+          "ar": "استبدل الأحكام بالملاحظات."
+        },
+        {
+          "en": "Agree on an actionable next step.",
+          "ar": "اتفق على خطوة قابلة للتطبيق."
+        }
+      ],
+      "application": {
+        "en": "Rewrite 'your work is careless' as a respectful, specific coordination conversation.",
+        "ar": "أعد صياغة «عملك مهمل» إلى حوار تنسيق محترم ومحدد."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "constructive-feedback",
+      "moduleId": "feedback",
+      "youtubeId": "O8OytB6LfXo",
+      "title": {
+        "en": "Honest, constructive feedback",
+        "ar": "الملاحظات الصريحة والبنّاءة"
+      },
+      "source": "Stanford GSB",
+      "language": "en",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Seek perspectives from more than one working relationship to discover blind spots. Feedback is evidence to examine, not a verdict to accept uncritically.",
+          "ar": "اطلب وجهات نظر من علاقات عمل مختلفة لاكتشاف الجوانب غير الملحوظة. الملاحظات دليل للفحص لا حكم يُقبل دون تفكير."
+        },
+        {
+          "en": "Ask for recent examples, listen without immediate defense, and look for recurring behaviors across contexts. Protect confidentiality in any multi-rater process.",
+          "ar": "اطلب أمثلة حديثة واستمع دون دفاع فوري وابحث عن السلوك المتكرر في سياقات مختلفة. احمِ الخصوصية في أي تقييم متعدد الأطراف."
+        },
+        {
+          "en": "Choose a focused improvement, communicate the action, and follow up to see whether it helped. This open edition does not run a confidential 360-degree evaluation.",
+          "ar": "اختر تحسينًا محددًا ووضّح الإجراء وتابع فائدته. هذه النسخة المفتوحة لا تنفذ تقييمًا سريًا بزاوية ٣٦٠ درجة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Find useful patterns in feedback.",
+          "ar": "اكتشف الأنماط المفيدة في الملاحظات."
+        },
+        {
+          "en": "Close the feedback loop.",
+          "ar": "أكمل دورة الملاحظات والمتابعة."
+        }
+      ],
+      "application": {
+        "en": "Ask two colleagues for one observable improvement, then plan a two-week behavior experiment.",
+        "ar": "اطلب من زميلين تحسينًا ملحوظًا واحدًا وخطّط لتجربته لأسبوعين."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "resolve-conflict",
+      "moduleId": "conflict",
+      "youtubeId": "53VDbPb2X0A",
+      "title": {
+        "en": "The leader's role in resolving conflict",
+        "ar": "دور القائد في حل النزاعات"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Separate the technical issue from personal attacks. State the shared project goal and give each discipline space to explain its constraint.",
+          "ar": "افصل المسألة الفنية عن الهجوم الشخصي. حدّد هدف المشروع المشترك وأتح لكل تخصص شرح قيوده."
+        },
+        {
+          "en": "Compare options against agreed criteria, such as safety, compliance, quality, cost, and programme. A compromise is not acceptable when it violates a mandatory requirement.",
+          "ar": "قارن البدائل بمعايير متفق عليها مثل السلامة والالتزام والجودة والتكلفة والبرنامج. التسوية لا تصلح إن خالفت متطلبًا إلزاميًا."
+        },
+        {
+          "en": "Document the decision and unresolved risks. Refer decisions outside the group's authority to the accountable project lead.",
+          "ar": "وثّق القرار والمخاطر غير المحسومة، وصعّد ما يتجاوز صلاحية المجموعة إلى قائد المشروع المسؤول."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Focus disagreement on the issue.",
+          "ar": "ركّز الخلاف على المسألة."
+        },
+        {
+          "en": "Use criteria and escalation.",
+          "ar": "استخدم المعايير والتصعيد."
+        }
+      ],
+      "application": {
+        "en": "Facilitate a short discussion between architecture and MEP over a shared space constraint.",
+        "ar": "أدر نقاشًا قصيرًا بين العمارة والأعمال الكهروميكانيكية حول قيد في المساحة."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "difficult-conversations",
+      "moduleId": "conflict",
+      "youtubeId": "OntE3tCaUR0",
+      "title": {
+        "en": "Stay composed in difficult conversations",
+        "ar": "حافظ على اتزانك في الحوار الصعب"
+      },
+      "source": "Harvard Business Review",
+      "language": "en",
+      "questionCount": 7,
+      "difficulty": "intermediate",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Notice escalating emotion early. A short pause and a clear intention for the conversation can help you respond rather than react.",
+          "ar": "لاحظ تصاعد الانفعال مبكرًا. قد تساعد وقفة قصيرة وتحديد هدف الحوار على الاستجابة بدل رد الفعل."
+        },
+        {
+          "en": "Name the issue using observable facts, test assumptions, and listen for the other person's concern. Avoid diagnosing motives or winning at the expense of the task.",
+          "ar": "اذكر المشكلة بوقائع ملحوظة واختبر الافتراضات واستمع لقلق الآخر. تجنّب تشخيص الدوافع أو الانتصار على حساب المهمة."
+        },
+        {
+          "en": "If discussion becomes abusive or unsafe, pause it and use the proper escalation route. A break should include an agreed time to resume when appropriate.",
+          "ar": "إذا أصبح الحوار مسيئًا أو غير آمن، أوقفه واستخدم التصعيد المناسب. وحيث يناسب، اتفق على وقت لاستكماله بعد الاستراحة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Pause without avoiding the issue.",
+          "ar": "توقف مؤقتًا دون تجنّب المشكلة."
+        },
+        {
+          "en": "Keep facts separate from assumptions.",
+          "ar": "افصل الوقائع عن الافتراضات."
+        }
+      ],
+      "application": {
+        "en": "Write an opening statement for a delayed handoff conversation that avoids blame and still states the impact.",
+        "ar": "اكتب افتتاحية لحوار عن تسليم متأخر تتجنب اللوم وتوضح الأثر."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "team-development",
+      "moduleId": "teams",
+      "youtubeId": "dGA9P4g8fDM",
+      "title": {
+        "en": "Team development and the leader's role",
+        "ar": "مراحل تطور الفريق ودور القائد"
+      },
+      "source": "Edraak",
+      "language": "ar",
+      "questionCount": 5,
+      "difficulty": "foundation",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Team-development models can help you notice changing needs: initial orientation, disagreement, working agreements, and more effective collaboration.",
+          "ar": "تساعد نماذج تطور الفريق على ملاحظة احتياجات متغيرة: التعارف والتوجيه والخلاف واتفاقات العمل ثم تعاون أكثر فاعلية."
+        },
+        {
+          "en": "Stages are a lens rather than a fixed timetable. A new member, changed scope, or deadline pressure can require renewed clarification.",
+          "ar": "المراحل عدسة للفهم لا جدول ثابت. قد يتطلب عضو جديد أو نطاق متغير أو ضغط التسليم توضيحًا جديدًا."
+        },
+        {
+          "en": "Adapt support to the team: clarify roles early, facilitate conflict, reinforce useful norms, and give capable teams appropriate autonomy.",
+          "ar": "كيّف دعمك للفريق: وضّح الأدوار مبكرًا وأدر الخلاف وعزّز قواعد العمل وامنح الفريق المتمكن استقلالية مناسبة."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Identify changing team needs.",
+          "ar": "تعرّف على احتياجات الفريق المتغيرة."
+        },
+        {
+          "en": "Choose a fitting leadership response.",
+          "ar": "اختر استجابة قيادية مناسبة."
+        }
+      ],
+      "application": {
+        "en": "Create a team working agreement covering decisions, handoffs, questions, and escalation.",
+        "ar": "أنشئ اتفاق عمل للفريق يشمل القرارات والتسليمات والأسئلة والتصعيد."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    },
+    {
+      "id": "trust-teamwork",
+      "moduleId": "teams",
+      "youtubeId": "LZGZDRcLQTk",
+      "title": {
+        "en": "Trust and teamwork: the full conversation",
+        "ar": "الثقة والعمل الجماعي: الحوار الكامل"
+      },
+      "source": "Simon Sinek",
+      "language": "en",
+      "questionCount": 10,
+      "difficulty": "advanced",
+      "durationSeconds": null,
+      "durationStatus": "player_runtime",
+      "captions": "unknown",
+      "verification": {
+        "checkedAt": "2026-09-16",
+        "method": "public_search_title_url_match",
+        "playback": "not_verified_in_build_environment",
+        "reuse": "review_required"
+      },
+      "brief": [
+        {
+          "en": "Use this longer conversation as an integration lesson. Connect trust, responsibility, listening, feedback, and development to one real team challenge.",
+          "ar": "استخدم هذا الحوار المطوّل لربط التعلم. اجمع الثقة والمسؤولية والاستماع والملاحظات والتطوير في تحدٍ واحد لفريقك."
+        },
+        {
+          "en": "A leader should make it easier for others to contribute and improve, not become the permanent bottleneck. Mentoring supports judgment rather than supplying every answer.",
+          "ar": "يسهّل القائد مساهمة الآخرين وتطورهم بدل أن يصبح عنق زجاجة دائمًا. يدعم الإرشاد حسن التقدير بدل تقديم كل الإجابات."
+        },
+        {
+          "en": "For your capstone, define a small problem, an action within your authority, an observable outcome, and an honest limitation. A self-reported result is not proof of causation.",
+          "ar": "في المشروع التطبيقي، حدّد مشكلة صغيرة وإجراء ضمن صلاحيتك ونتيجة ملحوظة وحدًا لما تستنتجه. النتيجة المبلّغ عنها ذاتيًا ليست إثباتًا للسببية."
+        }
+      ],
+      "objectives": [
+        {
+          "en": "Integrate the nine leadership practices.",
+          "ar": "ادمج الممارسات القيادية التسع."
+        },
+        {
+          "en": "Plan an evidence-aware capstone.",
+          "ar": "خطّط لمشروع يراعي حدود الأدلة."
+        }
+      ],
+      "application": {
+        "en": "Choose one coordination friction to improve over two weeks, with a baseline and a practical measure.",
+        "ar": "اختر عائق تنسيق لتحسينه خلال أسبوعين مع نقطة بداية ومقياس عملي."
+      },
+      "status": "published",
+      "contentVersion": "1.0.0"
+    }
+  ]
+}
