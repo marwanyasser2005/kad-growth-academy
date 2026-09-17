@@ -1,6 +1,7 @@
 export const PASS_SCORE = 80;
 export const REFLECTION_MIN = 40;
 export const REQUIRED_WATCH_PERCENT = 90;
+export const UNIT_APPLICATION_MIN = 80;
 export function shuffle(items, random = Math.random) {
   const out = [...items];
   for (let i = out.length - 1; i > 0; i--) {
@@ -29,6 +30,16 @@ export function canAttemptQuiz(progress) {
 export function lessonComplete(progress) {
   return viewingComplete(progress) && (progress?.bestScore ?? 0) >= PASS_SCORE &&
     typeof progress?.reflection === "string" && progress.reflection.trim().length >= REFLECTION_MIN;
+}
+export function unitComplete(progress) {
+  return Boolean(progress?.readConfirmed) && (progress?.bestScore ?? 0) >= PASS_SCORE &&
+    typeof progress?.application === "string" && progress.application.trim().length >= UNIT_APPLICATION_MIN;
+}
+export function academyCompletionStats(units, progress={}) {
+  const completed=units.filter(unit=>unitComplete(progress[unit.id])).length;
+  const attempted=units.filter(unit=>(progress[unit.id]?.attempts?.length??0)>0);
+  const knowledgeAverage=attempted.length?Math.round(attempted.reduce((sum,unit)=>sum+(progress[unit.id]?.bestScore||0),0)/attempted.length):null;
+  return {completed,total:units.length,percent:units.length?Math.round(completed/units.length*100):0,knowledgeAverage};
 }
 export function completionStats(lessons, progress) {
   const completed = lessons.filter(l => lessonComplete(progress[l.id])).length;

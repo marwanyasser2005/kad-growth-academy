@@ -1,8 +1,8 @@
 {
   "name": "kad-growth-academy",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "KAD bilingual open-access Leadership Academy. Zero runtime dependencies.",
+  "description": "KAD ELEVATE Academy 2.0: bilingual personal learning and secure team mode.",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -10,6 +10,8 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs --dist",
+    "team": "node backend/server.mjs",
+    "team:bootstrap": "node backend/bootstrap.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "node scripts/check.mjs",

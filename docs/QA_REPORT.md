@@ -1,5 +1,16 @@
 # Quality assurance report
-Release 1.0.0 · 2026-09-16
+Release 2.0.0 · 2026-09-17
+
+## Release 2.0 acceptance
+
+- Content integrity: 5 active tracks, 30 original bilingual units and 150 formative questions.
+- Preserved library: 9 legacy modules, 20 videos, 119 questions, 9 cases and 9 tools.
+- Automated tests: 41/41 passed, including unit completion and Team Mode password/session helpers.
+- Production build: PASS; self-contained Personal Mode HTML plus manifest, service worker and logo asset.
+- Browser verification: Arabic RTL home, a full unit completion flow, responsive 390 × 844 layout, and no horizontal overflow in the checked mobile route.
+- Team API smoke: health PASS, 5 tracks/30 units returned, public catalog contains no answer keys, administrator login/session/CSRF PASS.
+
+The release keeps the earlier QA history below as provenance for the preserved library.
 
 ## Executed checks
 

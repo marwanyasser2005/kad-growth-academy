@@ -1,6 +1,7 @@
 import {curriculum,STRICT_KAD_VIDEO_MODE,videoCandidates} from "../src/data/curriculum.mjs";
 import {questionBank} from "../src/data/questions.mjs";
 import {cases,tools,futureTracks} from "../src/data/practice.mjs";
+import {academyTracks,academyUnits,academyQuestions,academyStats} from "../src/data/academy.mjs";
 import {validYoutubeId,canonicalLessonId} from "../src/core/engine.mjs";
 import assert from "node:assert/strict";
 
@@ -33,6 +34,16 @@ assert.equal(cases.length,9);
 assert.equal(tools.length,9);
 assert(futureTracks.every(t=>t.visible===false&&t.status==="draft"));
 assert.equal(STRICT_KAD_VIDEO_MODE,false);
+assert.equal(academyTracks.length,5);
+assert.equal(academyUnits.length,30);
+assert.equal(Object.values(academyQuestions).flat().length,150);
+assert.deepEqual(academyStats,{tracks:5,units:30,questions:150,minutes:450});
+unique(academyUnits.map(u=>u.id),"Academy unit IDs");
+for(const unit of academyUnits){
+ assert(unit.title.en&&unit.title.ar&&unit.principle.en&&unit.principle.ar,unit.id);
+ assert.equal(unit.questions.length,5,unit.id);
+ for(const q of unit.questions){assert(q.prompt.en&&q.prompt.ar&&q.explanation.en&&q.explanation.ar,q.id);assert.equal(q.options.length,4,q.id);}
+}
 const canonicalIds=curriculum.lessons.map(canonicalLessonId);
 unique(canonicalIds,"Canonical lesson IDs");
 for(const l of curriculum.lessons){
@@ -51,4 +62,4 @@ for(const lang of ["ar","en"]){
 }
 assert.equal(videoCandidates.ar.length,9);
 assert.equal(videoCandidates.en.length,11);
-console.log(JSON.stringify({modules:9,lessons:20,questions:total,scenarios:9,tools:9,hiddenTracks:futureTracks.length,strictKadVideoMode:STRICT_KAD_VIDEO_MODE,draftCandidates:videoCandidates.ar.length+videoCandidates.en.length,status:"PASS"},null,2));
+console.log(JSON.stringify({release:"2.0",tracks:5,units:30,academyQuestions:150,legacyModules:9,legacyLessons:20,legacyQuestions:total,scenarios:9,tools:9,strictKadVideoMode:STRICT_KAD_VIDEO_MODE,status:"PASS"},null,2));

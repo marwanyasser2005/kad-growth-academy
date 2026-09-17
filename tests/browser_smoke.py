@@ -131,7 +131,9 @@ with sync_playwright() as p:
     page.locator('#issue-form button[type="submit"]').click()
     check("Issue saved locally, not sent",len(stored(page)["issues"])==1)
     # Complete route inventory and overflow checks on both desktop and mobile.
-    routes=["/","/welcome","/leadership","/library","/saved","/practice","/toolkit","/assessment","/progress","/notes","/capstone","/achievements","/certificate","/profile","/settings","/help","/about","/sources","/privacy","/terms","/login","/register","/forgot-password","/reset-password","/manager","/admin","/admin/content","/admin/questions","/admin/roadmap","/admin/reports"]
+    routes=["/","/welcome","/academy","/leadership","/library","/saved","/practice","/toolkit","/assessment","/progress","/notes","/capstone","/achievements","/certificate","/profile","/settings","/help","/about","/sources","/privacy","/terms","/login","/team","/register","/forgot-password","/reset-password","/manager","/admin","/admin/content","/admin/questions","/admin/roadmap","/admin/reports"]
+    routes += ["/academy/"+x for x in ["lead","connect","solve","deliver","adapt"]]
+    routes += ["/unit/"+x for x in ["lead-purpose","connect-listen","solve-frame","deliver-priorities","adapt-responsible-ai"]]
     routes += ["/learn/"+l["id"] for l in LESSONS]
     routes += ["/practice/case-"+str(i) for i in range(1,10)]
     routes += ["/toolkit/"+x for x in ["manual","reflection","pause","meeting","speak-up","delegation","feedback","decision","agreement"]]
@@ -150,7 +152,9 @@ with sync_playwright() as p:
     check("No JavaScript page errors",len(results["page_errors"])==0)
     nav(page,"/communication")
     check("Future public route is hidden",page.locator(".not-found").count()==1)
-    for path in ["/login","/register","/forgot-password","/reset-password"]:
+    nav(page,"/login")
+    check("Team sign-in form is active",page.locator("#team-login-form input:enabled").count()==2)
+    for path in ["/register","/forgot-password","/reset-password"]:
         nav(page,path)
         check("Credentials disabled "+path,page.locator(".auth-preview-form input:enabled").count()==0)
     nav(page,"/settings")

@@ -14,7 +14,7 @@ export function freshState() {
     deviceProfileId:deviceId(), migratedFrom:null, migrationAudit:[],
     profile:{name:"",department:"",role:"",weeklyGoal:90},
     language:null, reducedMotion:false, highContrast:false, theme:"system",
-    progress:{}, quizDrafts:{}, notes:[], saved:[], assessments:{},
+    progress:{}, quizDrafts:{}, notes:[], saved:[], assessments:{}, unitProgress:{},
     practices:{}, toolValues:{}, capstone:{fields:{},status:"draft"},
     issues:[], contentOverrides:{}, questionOverrides:{}, lastLesson:null,
     lessonFlags:{}
@@ -78,7 +78,7 @@ export function validateImport(data) {
   const base=freshState();
   const allowed = [...Object.keys(base),"achievements"];
   if(Object.keys(data).some(k=>!allowed.includes(k))) fail();
-  for(const key of ["profile","progress","quizDrafts","assessments","practices","toolValues","capstone","contentOverrides","questionOverrides","lessonFlags"]) {
+  for(const key of ["profile","progress","quizDrafts","assessments","unitProgress","practices","toolValues","capstone","contentOverrides","questionOverrides","lessonFlags"]) {
     if(data[key]!==undefined && !isObject(data[key])) fail();
   }
   for(const key of ["notes","saved","issues","migrationAudit"]) if(data[key]!==undefined && !Array.isArray(data[key])) fail();
@@ -98,6 +98,13 @@ export function validateImport(data) {
     if(p.reflection!==undefined&&(typeof p.reflection!=="string"||p.reflection.length>20000)) fail();
     if(p.selfConfirmed!==undefined&&typeof p.selfConfirmed!=="boolean") fail();
     if(p.attempts!==undefined&&(!Array.isArray(p.attempts)||p.attempts.some(a=>!isObject(a)||!Number.isFinite(a.percent)||a.percent<0||a.percent>100||typeof a.at!=="string"))) fail();
+  }
+  for(const p of Object.values(data.unitProgress||{})) {
+    if(!isObject(p)) fail();
+    if(p.bestScore!==undefined&&(!Number.isFinite(p.bestScore)||p.bestScore<0||p.bestScore>100)) fail();
+    if(p.readConfirmed!==undefined&&typeof p.readConfirmed!=="boolean") fail();
+    if(p.application!==undefined&&(typeof p.application!=="string"||p.application.length>20000)) fail();
+    if(p.attempts!==undefined&&(!Array.isArray(p.attempts)||p.attempts.some(a=>!isObject(a)||!Number.isFinite(a.percent)||a.percent<0||a.percent>100))) fail();
   }
   for(const n of data.notes||[]) if(!isObject(n)||typeof n.id!=="string"||typeof n.text!=="string"||n.text.length>20000) fail();
   for(const i of data.issues||[]) if(!isObject(i)||typeof i.text!=="string"||i.text.length>5000||typeof i.id!=="string") fail();

@@ -6,6 +6,8 @@ import {cases,tools,futureTracks} from "../src/data/practice.mjs";
 import {shuffle,calculateScore,coverage,lessonComplete,viewingComplete,canAttemptQuiz,completionStats,canIssueRecord,validYoutubeId,validateTextFields,nextLesson,canonicalLessonId,canonicalMap,questionCountForDuration,checksumString,mergeProgress,REQUIRED_WATCH_PERCENT} from "../src/core/engine.mjs";
 import {freshState,validateImport,loadState,saveState,recoverStorage,migrateV1toV2,SCHEMA_VERSION,STORAGE_KEY} from "../src/core/state.mjs";
 import {STRICT_KAD_VIDEO_MODE,videoCandidates} from "../src/data/curriculum.mjs";
+import {academyTracks,academyUnits,academyQuestions,academyStats} from "../src/data/academy.mjs";
+import {unitComplete,academyCompletionStats,UNIT_APPLICATION_MIN} from "../src/core/engine.mjs";
 import {esc,formatTime} from "../src/core/dom.mjs";
 const qs=questionBank[curriculum.lessons[0].id];
 const complete={duration:100,watched:Array.from({length:90},(_,i)=>i),bestScore:80,reflection:"A specific application reflection with more than forty characters.",attempts:[]};
@@ -15,6 +17,22 @@ test("curriculum has 9 modules, 20 unique videos, 119 bilingual questions",()=>{
  assert.equal(Object.values(questionBank).flat().length,119);
  assert.equal(cases.length,9);assert.equal(tools.length,9);
  for(const l of curriculum.lessons){assert.equal(questionBank[l.id].length,l.questionCount);assert(l.title.en&&l.title.ar);assert(l.brief.every(b=>b.en&&b.ar));}
+});
+test("ELEVATE 2.0 publishes five tracks, 30 units and 150 bilingual questions",()=>{
+ assert.equal(academyTracks.length,5);assert.equal(academyUnits.length,30);assert.equal(Object.values(academyQuestions).flat().length,150);
+ assert.deepEqual(academyStats,{tracks:5,units:30,questions:150,minutes:450});
+ assert.equal(new Set(academyUnits.map(unit=>unit.id)).size,30);
+ for(const unit of academyUnits){assert(unit.title.ar&&unit.title.en);assert.equal(unit.questions.length,5);}
+});
+test("academy unit completion keeps reading, knowledge and application separate",()=>{
+ const application="A specific workplace action with observed evidence and a clear adjustment for the next attempt.";
+ assert(application.length>=UNIT_APPLICATION_MIN);
+ assert(unitComplete({readConfirmed:true,bestScore:80,application}));
+ assert(!unitComplete({readConfirmed:false,bestScore:100,application}));
+ assert(!unitComplete({readConfirmed:true,bestScore:79,application}));
+ assert(!unitComplete({readConfirmed:true,bestScore:100,application:"short"}));
+ const progress={[academyUnits[0].id]:{readConfirmed:true,bestScore:80,application}};
+ assert.equal(academyCompletionStats(academyUnits,progress).completed,1);
 });
 test("every question has 4 distinct option IDs and a valid bilingual answer",()=>{
  for(const q of Object.values(questionBank).flat()){

@@ -1,6 +1,6 @@
 const DB_NAME = "kad_growth_v2";
-const DB_VERSION = 2;
-const STORES = ["profile","preferences","lessonProgress","videoProgress","quizAttempts","reflections","notes","bookmarks","practices","assessments","capstone","achievements","contentOverrides","metadata"];
+const DB_VERSION = 3;
+const STORES = ["profile","preferences","lessonProgress","videoProgress","quizAttempts","reflections","notes","bookmarks","unitProgress","practices","assessments","capstone","achievements","contentOverrides","metadata"];
 function backend() {
   try { return globalThis.indexedDB || null; } catch { return null; }
 }
@@ -30,7 +30,7 @@ export async function idbWriteState(state) {
   const parts = {
     profile: snapshot.profile, preferences: {language:snapshot.language,reducedMotion:snapshot.reducedMotion,highContrast:snapshot.highContrast,theme:snapshot.theme},
     lessonProgress: snapshot.progress, videoProgress: snapshot.progress, quizAttempts: snapshot.quizDrafts,
-    reflections: snapshot.progress, notes: snapshot.notes, bookmarks: snapshot.saved, practices: snapshot.practices,
+    reflections: snapshot.progress, notes: snapshot.notes, bookmarks: snapshot.saved, unitProgress:snapshot.unitProgress||{}, practices: snapshot.practices,
     assessments: snapshot.assessments, capstone: snapshot.capstone, achievements: {awards:snapshot.achievements||[]},
     contentOverrides: {content:snapshot.contentOverrides,questions:snapshot.questionOverrides,flags:snapshot.lessonFlags},
     metadata: {updatedAt:snapshot.updatedAt,schemaVersion:snapshot.schemaVersion,deviceProfileId:snapshot.deviceProfileId||null,migratedFrom:snapshot.migratedFrom||null,lastLesson:snapshot.lastLesson||null,issues:snapshot.issues||[]}

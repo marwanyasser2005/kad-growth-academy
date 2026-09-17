@@ -1,0 +1,1075 @@
+{
+  "version": "2.0.0",
+  "stats": {
+    "tracks": 5,
+    "units": 30,
+    "questions": 150,
+    "minutes": 450
+  },
+  "developmentLevels": [
+    {
+      "id": "L1",
+      "title": {
+        "en": "Self",
+        "ar": "الذات"
+      },
+      "audience": {
+        "en": "Employees, operations and services",
+        "ar": "الموظفون والإدارة والخدمات"
+      },
+      "outcome": {
+        "en": "Clarify expectations, keep commitments and escalate early.",
+        "ar": "توضيح المطلوب والالتزام والتصعيد المبكر."
+      }
+    },
+    {
+      "id": "L2",
+      "title": {
+        "en": "Influence",
+        "ar": "التأثير"
+      },
+      "audience": {
+        "en": "Senior specialists",
+        "ar": "المتخصصون وأصحاب الخبرة"
+      },
+      "outcome": {
+        "en": "Review work and transfer expertise without taking ownership away.",
+        "ar": "مراجعة العمل ونقل الخبرة دون الاستحواذ عليه."
+      }
+    },
+    {
+      "id": "L3",
+      "title": {
+        "en": "People & delivery",
+        "ar": "الأفراد والتسليم"
+      },
+      "audience": {
+        "en": "Team leads and project managers",
+        "ar": "قادة الفرق ومديرو المشروعات"
+      },
+      "outcome": {
+        "en": "Delegate outcomes, coach people and coordinate delivery.",
+        "ar": "تفويض النتائج والتوجيه وتنسيق التسليم."
+      }
+    },
+    {
+      "id": "L4",
+      "title": {
+        "en": "Management",
+        "ar": "الإدارة"
+      },
+      "audience": {
+        "en": "Heads and directors",
+        "ar": "رؤساء الأقسام والمديرون"
+      },
+      "outcome": {
+        "en": "Balance capacity, resources and leadership succession.",
+        "ar": "موازنة القدرات والموارد وبناء الصف القيادي البديل."
+      }
+    },
+    {
+      "id": "L5",
+      "title": {
+        "en": "Enterprise",
+        "ar": "المؤسسة"
+      },
+      "audience": {
+        "en": "Principals and executives",
+        "ar": "القيادات التنفيذية"
+      },
+      "outcome": {
+        "en": "Set decision rights, strategic focus and team autonomy.",
+        "ar": "تحديد صلاحيات القرار والتركيز الاستراتيجي واستقلال الفريق."
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "lead",
+      "code": "LEAD",
+      "title": {
+        "en": "Lead self and others",
+        "ar": "قيادة الذات والآخرين"
+      },
+      "description": {
+        "en": "Turn purpose, trust and accountability into daily leadership practice.",
+        "ar": "حوّل الهدف والثقة والمساءلة إلى ممارسة قيادية يومية."
+      },
+      "months": "01—06",
+      "icon": "target",
+      "order": 1,
+      "unitIds": [
+        "lead-purpose",
+        "lead-trust",
+        "lead-feedback",
+        "lead-delegate",
+        "lead-coach",
+        "lead-conflict",
+        "lead-change",
+        "lead-strategy",
+        "lead-succession",
+        "lead-scale"
+      ]
+    },
+    {
+      "id": "connect",
+      "code": "CONNECT",
+      "title": {
+        "en": "Communicate and influence",
+        "ar": "التواصل والتأثير"
+      },
+      "description": {
+        "en": "Make listening, updates, meetings and recommendations produce clearer action.",
+        "ar": "اجعل الاستماع والتحديثات والاجتماعات والتوصيات تنتج عملًا أوضح."
+      },
+      "months": "07—08",
+      "icon": "chat",
+      "order": 2,
+      "unitIds": [
+        "connect-listen",
+        "connect-updates",
+        "connect-meetings",
+        "connect-recommend",
+        "connect-negotiate"
+      ]
+    },
+    {
+      "id": "solve",
+      "code": "SOLVE",
+      "title": {
+        "en": "Solve and decide",
+        "ar": "حل المشكلات واتخاذ القرار"
+      },
+      "description": {
+        "en": "Move from symptoms to evidence, options and disciplined learning.",
+        "ar": "انتقل من الأعراض إلى الدليل والبدائل والتعلم المنضبط."
+      },
+      "months": "09",
+      "icon": "search",
+      "order": 3,
+      "unitIds": [
+        "solve-frame",
+        "solve-root-cause",
+        "solve-options",
+        "solve-judgment",
+        "solve-review"
+      ]
+    },
+    {
+      "id": "deliver",
+      "code": "DELIVER",
+      "title": {
+        "en": "Deliver reliable value",
+        "ar": "تسليم قيمة موثوقة"
+      },
+      "description": {
+        "en": "Align priorities, scope, handovers and internal service around value.",
+        "ar": "نسّق الأولويات والنطاق والتسليمات والخدمة الداخلية حول القيمة."
+      },
+      "months": "10—11",
+      "icon": "briefcase",
+      "order": 4,
+      "unitIds": [
+        "deliver-priorities",
+        "deliver-scope",
+        "deliver-handover",
+        "deliver-internal-service",
+        "deliver-close-loop"
+      ]
+    },
+    {
+      "id": "adapt",
+      "code": "ADAPT",
+      "title": {
+        "en": "Learn and adapt",
+        "ar": "التعلم والتكيف"
+      },
+      "description": {
+        "en": "Build sustainable learning, experiments and responsible use of new tools.",
+        "ar": "ابنِ تعلمًا مستدامًا وتجارب واستخدامًا مسؤولًا للأدوات الجديدة."
+      },
+      "months": "12",
+      "icon": "sparkles",
+      "order": 5,
+      "unitIds": [
+        "adapt-learning",
+        "adapt-pressure",
+        "adapt-adoption",
+        "adapt-experiments",
+        "adapt-responsible-ai"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "lead-purpose",
+      "slug": "purpose",
+      "trackId": "lead",
+      "number": 1,
+      "title": {
+        "en": "Lead with purpose",
+        "ar": "القيادة بهدف"
+      },
+      "principle": {
+        "en": "A useful purpose connects a real need, the value created and the people affected.",
+        "ar": "يربط الهدف المفيد بين حاجة حقيقية والقيمة المتحققة والأشخاص المتأثرين."
+      },
+      "scenario": {
+        "en": "A designer is asked to rush a package with no agreed success criterion.",
+        "ar": "طُلب من مصمم استعجال حزمة عمل دون معيار نجاح متفق عليه."
+      },
+      "mistake": {
+        "en": "Replacing purpose with a slogan that does not guide a choice.",
+        "ar": "استبدال الهدف بشعار لا يوجّه قرارًا."
+      },
+      "mission": {
+        "en": "Rewrite one current task as need, value, user and evidence of success.",
+        "ar": "أعد صياغة مهمة حالية كحاجة وقيمة ومستفيد ودليل نجاح."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-trust",
+      "slug": "trust",
+      "trackId": "lead",
+      "number": 2,
+      "title": {
+        "en": "Build dependable trust",
+        "ar": "بناء ثقة يمكن الاعتماد عليها"
+      },
+      "principle": {
+        "en": "Trust grows when expectations, ownership and recovery after a miss are visible.",
+        "ar": "تنمو الثقة عندما تكون التوقعات والمسؤولية وإصلاح التعثر واضحة."
+      },
+      "scenario": {
+        "en": "A handover arrives late and the receiving team learns about it after the deadline.",
+        "ar": "وصل تسليم متأخرًا ولم يعرف الفريق المستلم إلا بعد الموعد."
+      },
+      "mistake": {
+        "en": "Treating warmth or agreement as proof of reliability.",
+        "ar": "اعتبار الود أو الاتفاق دليلًا كافيًا على الموثوقية."
+      },
+      "mission": {
+        "en": "Agree one promise, owner, checkpoint and recovery action with a colleague.",
+        "ar": "اتفق مع زميل على وعد ومسؤول ونقطة متابعة وإجراء تعافٍ."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-feedback",
+      "slug": "feedback",
+      "trackId": "lead",
+      "number": 3,
+      "title": {
+        "en": "Give useful feedback",
+        "ar": "تقديم تغذية راجعة مفيدة"
+      },
+      "principle": {
+        "en": "Describe the situation and behavior, explain its impact, then agree a next action.",
+        "ar": "صف الموقف والسلوك، واشرح الأثر، ثم اتفق على إجراء تالٍ."
+      },
+      "scenario": {
+        "en": "A technically correct review note leaves its receiver defensive and unclear.",
+        "ar": "ملاحظة مراجعة صحيحة تقنيًا تركت متلقيها مدافعًا وغير واضح."
+      },
+      "mistake": {
+        "en": "Judging personality instead of describing observable behavior.",
+        "ar": "الحكم على الشخصية بدل وصف سلوك يمكن ملاحظته."
+      },
+      "mission": {
+        "en": "Draft one SBI feedback conversation and one question that invites response.",
+        "ar": "اكتب محادثة تغذية راجعة وفق SBI وسؤالًا يفتح باب الرد."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-delegate",
+      "slug": "delegate",
+      "trackId": "lead",
+      "number": 4,
+      "title": {
+        "en": "Delegate outcomes",
+        "ar": "تفويض النتائج"
+      },
+      "principle": {
+        "en": "Delegation transfers a clear result and decision space while keeping proportionate support.",
+        "ar": "ينقل التفويض نتيجة واضحة ومساحة قرار مع دعم متناسب."
+      },
+      "scenario": {
+        "en": "A team lead delegates a task but keeps approving every small step.",
+        "ar": "فوّض قائد فريق مهمة لكنه ظل يعتمد كل خطوة صغيرة."
+      },
+      "mistake": {
+        "en": "Delegating an activity without authority, context or a review point.",
+        "ar": "تفويض نشاط دون صلاحية أو سياق أو نقطة مراجعة."
+      },
+      "mission": {
+        "en": "Define an outcome, boundaries, decisions, resources and checkpoint for one task.",
+        "ar": "حدد نتيجة وحدودًا وقرارات وموارد ونقطة متابعة لمهمة واحدة."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-coach",
+      "slug": "coach",
+      "trackId": "lead",
+      "number": 5,
+      "title": {
+        "en": "Coach for ownership",
+        "ar": "التوجيه مع الحفاظ على المسؤولية"
+      },
+      "principle": {
+        "en": "Coaching uses questions and experiments so the other person keeps ownership of the work.",
+        "ar": "يستخدم التوجيه الأسئلة والتجارب ليحتفظ الشخص الآخر بمسؤولية العمل."
+      },
+      "scenario": {
+        "en": "A capable colleague asks for an answer before exploring the problem.",
+        "ar": "طلب زميل قادر إجابة قبل أن يستكشف المشكلة."
+      },
+      "mistake": {
+        "en": "Solving the problem for the learner and calling that coaching.",
+        "ar": "حل المشكلة نيابة عن المتعلم واعتبار ذلك توجيهًا."
+      },
+      "mission": {
+        "en": "Prepare three questions that move from goal to options to a committed step.",
+        "ar": "حضّر ثلاثة أسئلة تنتقل من الهدف إلى البدائل ثم خطوة ملتزم بها."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-conflict",
+      "slug": "conflict",
+      "trackId": "lead",
+      "number": 6,
+      "title": {
+        "en": "Work with disagreement",
+        "ar": "إدارة الاختلاف"
+      },
+      "principle": {
+        "en": "Healthy conflict separates interests, evidence and constraints from personal judgment.",
+        "ar": "يفصل الخلاف الصحي بين المصالح والأدلة والقيود وبين الحكم الشخصي."
+      },
+      "scenario": {
+        "en": "Two disciplines defend different solutions to the same client constraint.",
+        "ar": "يدافع تخصصان عن حلين مختلفين لقيد واحد لدى العميل."
+      },
+      "mistake": {
+        "en": "Forcing quick agreement before naming the real trade-off.",
+        "ar": "فرض اتفاق سريع قبل تسمية المفاضلة الحقيقية."
+      },
+      "mission": {
+        "en": "Map the shared aim, each interest, the evidence and a reversible next test.",
+        "ar": "ارسم الهدف المشترك ومصلحة كل طرف والدليل واختبارًا تاليًا قابلًا للعكس."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-change",
+      "slug": "change",
+      "trackId": "lead",
+      "number": 7,
+      "title": {
+        "en": "Lead through change",
+        "ar": "القيادة خلال التغيير"
+      },
+      "principle": {
+        "en": "People adopt change when the reason, impact, support and feedback loop are concrete.",
+        "ar": "يتبنى الناس التغيير عندما يكون السبب والأثر والدعم ودائرة الملاحظات محددة."
+      },
+      "scenario": {
+        "en": "A new workflow is announced after decisions have already been finalized.",
+        "ar": "أُعلن سير عمل جديد بعد حسم القرارات بالفعل."
+      },
+      "mistake": {
+        "en": "Calling understandable uncertainty resistance and ignoring it.",
+        "ar": "وصف عدم اليقين المفهوم بأنه مقاومة وتجاهله."
+      },
+      "mission": {
+        "en": "Write a change message covering why, what changes, what stays and where to ask.",
+        "ar": "اكتب رسالة تغيير توضح لماذا وما الذي يتغير وما الذي يبقى وأين تُطرح الأسئلة."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-strategy",
+      "slug": "strategy",
+      "trackId": "lead",
+      "number": 8,
+      "title": {
+        "en": "Translate strategy",
+        "ar": "ترجمة الاستراتيجية"
+      },
+      "principle": {
+        "en": "Strategy becomes useful when priorities, exclusions and resource choices shape the next decision.",
+        "ar": "تصبح الاستراتيجية مفيدة عندما تشكل الأولويات والاستبعادات واختيارات الموارد القرار التالي."
+      },
+      "scenario": {
+        "en": "A team receives five priorities with no order and unchanged capacity.",
+        "ar": "تلقى فريق خمس أولويات بلا ترتيب مع بقاء القدرة كما هي."
+      },
+      "mistake": {
+        "en": "Presenting a list of ambitions as a strategy.",
+        "ar": "عرض قائمة طموحات على أنها استراتيجية."
+      },
+      "mission": {
+        "en": "Choose one priority, one explicit non-priority and one resource shift.",
+        "ar": "اختر أولوية واحدة ولا أولوية واضحة وتحويلًا واحدًا للموارد."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-succession",
+      "slug": "succession",
+      "trackId": "lead",
+      "number": 9,
+      "title": {
+        "en": "Build leadership capacity",
+        "ar": "بناء القدرة القيادية"
+      },
+      "principle": {
+        "en": "A resilient team distributes knowledge, decision practice and critical relationships.",
+        "ar": "يوزع الفريق المرن المعرفة والتدرب على القرار والعلاقات الحرجة."
+      },
+      "scenario": {
+        "en": "Only one senior person can approve, explain or recover a critical process.",
+        "ar": "لا يستطيع اعتماد عملية حرجة أو شرحها أو استعادتها إلا شخص خبير واحد."
+      },
+      "mistake": {
+        "en": "Naming a successor without creating opportunities to practice.",
+        "ar": "تسمية بديل دون إتاحة فرص حقيقية للممارسة."
+      },
+      "mission": {
+        "en": "Select one critical responsibility and plan shadow, practice and review stages.",
+        "ar": "اختر مسؤولية حرجة وخطط لمراحل الملاحظة والممارسة والمراجعة."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "lead-scale",
+      "slug": "scale",
+      "trackId": "lead",
+      "number": 10,
+      "title": {
+        "en": "Lead systems that scale",
+        "ar": "قيادة أنظمة قابلة للتوسع"
+      },
+      "principle": {
+        "en": "Scale requires clear principles, decision rights and feedback closer to the work.",
+        "ar": "يتطلب التوسع مبادئ واضحة وصلاحيات قرار وتغذية راجعة أقرب إلى العمل."
+      },
+      "scenario": {
+        "en": "Growth has turned every routine exception into an executive decision.",
+        "ar": "حوّل النمو كل استثناء روتيني إلى قرار تنفيذي."
+      },
+      "mistake": {
+        "en": "Scaling by adding approvals faster than capability.",
+        "ar": "التوسع بإضافة الاعتمادات أسرع من بناء القدرة."
+      },
+      "mission": {
+        "en": "Move one repeat decision to the lowest responsible level with guardrails.",
+        "ar": "انقل قرارًا متكررًا إلى أدنى مستوى مسؤول مع ضوابط واضحة."
+      },
+      "level": "L5",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "connect-listen",
+      "slug": "listen",
+      "trackId": "connect",
+      "number": 1,
+      "title": {
+        "en": "Listen to understand",
+        "ar": "الاستماع للفهم"
+      },
+      "principle": {
+        "en": "Useful listening tests meaning, emotion and missing context before offering a response.",
+        "ar": "يختبر الاستماع المفيد المعنى والشعور والسياق الناقص قبل تقديم الرد."
+      },
+      "scenario": {
+        "en": "A client repeats a concern while the team keeps defending the solution.",
+        "ar": "كرر عميل مخاوفه بينما واصل الفريق الدفاع عن الحل."
+      },
+      "mistake": {
+        "en": "Waiting silently for a chance to reply.",
+        "ar": "الانتظار بصمت لفرصة الرد."
+      },
+      "mission": {
+        "en": "Use paraphrase, one clarifying question and a confirmation of the real need.",
+        "ar": "استخدم إعادة الصياغة وسؤال توضيح وتأكيدًا للحاجة الحقيقية."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "connect-updates",
+      "slug": "updates",
+      "trackId": "connect",
+      "number": 2,
+      "title": {
+        "en": "Write decision-ready updates",
+        "ar": "كتابة تحديثات تساعد على القرار"
+      },
+      "principle": {
+        "en": "A strong update states status, evidence, risk, decision needed and next owner.",
+        "ar": "يذكر التحديث القوي الحالة والدليل والمخاطر والقرار المطلوب والمسؤول التالي."
+      },
+      "scenario": {
+        "en": "A long project email describes activity but hides a blocked decision.",
+        "ar": "بريد مشروع طويل يصف النشاط لكنه يخفي قرارًا متعثرًا."
+      },
+      "mistake": {
+        "en": "Equating detail with clarity.",
+        "ar": "مساواة كثرة التفاصيل بالوضوح."
+      },
+      "mission": {
+        "en": "Rewrite one update in five lines: status, evidence, risk, ask and next step.",
+        "ar": "أعد كتابة تحديث في خمسة أسطر: الحالة والدليل والمخاطر والطلب والخطوة التالية."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "connect-meetings",
+      "slug": "meetings",
+      "trackId": "connect",
+      "number": 3,
+      "title": {
+        "en": "Design useful meetings",
+        "ar": "تصميم اجتماعات مفيدة"
+      },
+      "principle": {
+        "en": "A meeting needs a purpose, prepared inputs, decision method and recorded ownership.",
+        "ar": "يحتاج الاجتماع هدفًا ومدخلات معدة وطريقة قرار ومسؤولية مسجلة."
+      },
+      "scenario": {
+        "en": "Ten people join a weekly meeting to hear information that could be read.",
+        "ar": "يحضر عشرة أشخاص اجتماعًا أسبوعيًا لسماع معلومات يمكن قراءتها."
+      },
+      "mistake": {
+        "en": "Using attendance as a substitute for preparation.",
+        "ar": "استخدام الحضور بديلًا عن التحضير."
+      },
+      "mission": {
+        "en": "Redesign one meeting with a decision, pre-read, roles and end condition.",
+        "ar": "أعد تصميم اجتماع بقرار ومادة مسبقة وأدوار وشرط انتهاء."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "connect-recommend",
+      "slug": "recommend",
+      "trackId": "connect",
+      "number": 4,
+      "title": {
+        "en": "Present a recommendation",
+        "ar": "عرض توصية"
+      },
+      "principle": {
+        "en": "A credible recommendation links the problem, options, criteria, evidence and explicit ask.",
+        "ar": "تربط التوصية الموثوقة المشكلة والبدائل والمعايير والدليل والطلب الواضح."
+      },
+      "scenario": {
+        "en": "Leadership sees polished slides but cannot tell what decision is requested.",
+        "ar": "شاهدت الإدارة عرضًا مصقولًا لكنها لم تعرف القرار المطلوب."
+      },
+      "mistake": {
+        "en": "Leading with background instead of the decision.",
+        "ar": "البدء بالخلفية بدل القرار."
+      },
+      "mission": {
+        "en": "Prepare a one-minute recommendation with two alternatives and trade-offs.",
+        "ar": "حضّر توصية في دقيقة تتضمن بديلين ومفاضلاتهما."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "connect-negotiate",
+      "slug": "negotiate",
+      "trackId": "connect",
+      "number": 5,
+      "title": {
+        "en": "Negotiate interests",
+        "ar": "التفاوض حول المصالح"
+      },
+      "principle": {
+        "en": "Good negotiation explores interests, constraints and alternatives before trading positions.",
+        "ar": "يستكشف التفاوض الجيد المصالح والقيود والبدائل قبل تبادل المواقف."
+      },
+      "scenario": {
+        "en": "Two teams argue about a deadline while both depend on scarce specialist time.",
+        "ar": "يتجادل فريقان حول موعد بينما يعتمد كلاهما على وقت متخصص نادر."
+      },
+      "mistake": {
+        "en": "Making concessions without understanding what each side values.",
+        "ar": "تقديم تنازلات دون فهم ما يقدره كل طرف."
+      },
+      "mission": {
+        "en": "List interests, constraints, BATNA and three tradable variables.",
+        "ar": "اكتب المصالح والقيود والبديل الأفضل وثلاثة متغيرات قابلة للتبادل."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "solve-frame",
+      "slug": "frame",
+      "trackId": "solve",
+      "number": 1,
+      "title": {
+        "en": "Frame the problem",
+        "ar": "تعريف المشكلة"
+      },
+      "principle": {
+        "en": "A useful problem statement names the gap, affected user, evidence and boundary.",
+        "ar": "تسمي صياغة المشكلة المفيدة الفجوة والمستفيد المتأثر والدليل والحدود."
+      },
+      "scenario": {
+        "en": "A team starts ideating after hearing only that quality is poor.",
+        "ar": "بدأ فريق ابتكار حلول بعد سماع أن الجودة ضعيفة فقط."
+      },
+      "mistake": {
+        "en": "Embedding a preferred solution inside the problem statement.",
+        "ar": "تضمين الحل المفضل داخل تعريف المشكلة."
+      },
+      "mission": {
+        "en": "Write a neutral problem statement with baseline, target and scope.",
+        "ar": "اكتب تعريفًا محايدًا للمشكلة يتضمن خط الأساس والهدف والنطاق."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "solve-root-cause",
+      "slug": "root-cause",
+      "trackId": "solve",
+      "number": 2,
+      "title": {
+        "en": "Find contributing causes",
+        "ar": "تحديد الأسباب المساهمة"
+      },
+      "principle": {
+        "en": "Root-cause work tests a chain of evidence and avoids blaming the nearest person.",
+        "ar": "يختبر تحليل السبب الجذري سلسلة أدلة ويتجنب لوم أقرب شخص."
+      },
+      "scenario": {
+        "en": "Repeated rework is attributed to carelessness without reviewing inputs or controls.",
+        "ar": "نُسب تكرار إعادة العمل إلى الإهمال دون مراجعة المدخلات أو الضوابط."
+      },
+      "mistake": {
+        "en": "Stopping at the first plausible why.",
+        "ar": "التوقف عند أول سبب محتمل."
+      },
+      "mission": {
+        "en": "Run five whys and mark every step that still needs evidence.",
+        "ar": "نفذ أسئلة لماذا الخمسة وحدد كل خطوة ما زالت تحتاج دليلًا."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "solve-options",
+      "slug": "options",
+      "trackId": "solve",
+      "number": 3,
+      "title": {
+        "en": "Create real alternatives",
+        "ar": "ابتكار بدائل حقيقية"
+      },
+      "principle": {
+        "en": "Decision quality improves when options differ meaningfully and include doing less or sequencing.",
+        "ar": "تتحسن جودة القرار عندما تختلف البدائل بوضوح وتشمل التقليل أو الترتيب المرحلي."
+      },
+      "scenario": {
+        "en": "A proposal offers three versions of the same expensive solution.",
+        "ar": "يعرض مقترح ثلاث نسخ من الحل المكلف نفسه."
+      },
+      "mistake": {
+        "en": "Comparing one detailed option with vague straw alternatives.",
+        "ar": "مقارنة بديل مفصل ببدائل ضعيفة غامضة."
+      },
+      "mission": {
+        "en": "Create three distinct options and state the strongest case for each.",
+        "ar": "أنشئ ثلاثة بدائل مختلفة واكتب أقوى حجة لكل منها."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "solve-judgment",
+      "slug": "judgment",
+      "trackId": "solve",
+      "number": 4,
+      "title": {
+        "en": "Use professional judgment",
+        "ar": "استخدام الحكم المهني"
+      },
+      "principle": {
+        "en": "Judgment combines evidence, expertise, ethics and uncertainty without pretending certainty.",
+        "ar": "يجمع الحكم المهني بين الدليل والخبرة والأخلاق وعدم اليقين دون ادعاء اليقين."
+      },
+      "scenario": {
+        "en": "The data is incomplete but a reversible decision cannot wait.",
+        "ar": "البيانات ناقصة لكن قرارًا قابلًا للعكس لا يمكن أن ينتظر."
+      },
+      "mistake": {
+        "en": "Hiding uncertainty to sound decisive.",
+        "ar": "إخفاء عدم اليقين للظهور بالحسم."
+      },
+      "mission": {
+        "en": "Record evidence, assumptions, dissent, confidence and a review trigger.",
+        "ar": "سجل الدليل والافتراضات والاعتراض والثقة ومحفز المراجعة."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "solve-review",
+      "slug": "review",
+      "trackId": "solve",
+      "number": 5,
+      "title": {
+        "en": "Review the decision",
+        "ar": "مراجعة القرار"
+      },
+      "principle": {
+        "en": "A decision review separates outcome luck from process quality and converts surprise into learning.",
+        "ar": "تفصل مراجعة القرار حظ النتيجة عن جودة العملية وتحول المفاجأة إلى تعلم."
+      },
+      "scenario": {
+        "en": "A successful outcome prevents the team from examining risky assumptions.",
+        "ar": "منعت نتيجة ناجحة الفريق من فحص افتراضات خطرة."
+      },
+      "mistake": {
+        "en": "Reviewing only failed decisions.",
+        "ar": "مراجعة القرارات الفاشلة فقط."
+      },
+      "mission": {
+        "en": "Schedule a review with expected signals, actual signals and one process change.",
+        "ar": "حدد مراجعة تتضمن الإشارات المتوقعة والفعلية وتغييرًا واحدًا للعملية."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "deliver-priorities",
+      "slug": "priorities",
+      "trackId": "deliver",
+      "number": 1,
+      "title": {
+        "en": "Choose priorities",
+        "ar": "اختيار الأولويات"
+      },
+      "principle": {
+        "en": "Prioritization is an explicit choice about what receives attention now and what waits.",
+        "ar": "ترتيب الأولويات اختيار واضح لما ينال الانتباه الآن وما ينتظر."
+      },
+      "scenario": {
+        "en": "Everything is marked urgent and the team switches work daily.",
+        "ar": "وُصف كل شيء بالعاجل وصار الفريق يبدل عمله يوميًا."
+      },
+      "mistake": {
+        "en": "Ranking work without considering capacity or dependencies.",
+        "ar": "ترتيب العمل دون مراعاة القدرة أو الاعتماديات."
+      },
+      "mission": {
+        "en": "Use value, urgency, risk and effort to select three priorities and a stop list.",
+        "ar": "استخدم القيمة والعجلة والمخاطر والجهد لاختيار ثلاث أولويات وقائمة توقف."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "deliver-scope",
+      "slug": "scope",
+      "trackId": "deliver",
+      "number": 2,
+      "title": {
+        "en": "Align client and scope",
+        "ar": "مواءمة العميل والنطاق"
+      },
+      "principle": {
+        "en": "Healthy scope makes outcomes, exclusions, assumptions and change decisions visible.",
+        "ar": "يجعل النطاق السليم النتائج والاستبعادات والافتراضات وقرارات التغيير واضحة."
+      },
+      "scenario": {
+        "en": "A client request is accepted informally and later treated as part of the baseline.",
+        "ar": "قُبل طلب عميل بصورة غير رسمية ثم اعتبر جزءًا من خط الأساس."
+      },
+      "mistake": {
+        "en": "Using a document signature as a substitute for continuing alignment.",
+        "ar": "استخدام توقيع الوثيقة بديلًا عن استمرار المواءمة."
+      },
+      "mission": {
+        "en": "Write a scope note with outcome, included, excluded, assumptions and change path.",
+        "ar": "اكتب مذكرة نطاق تتضمن النتيجة والمشمول والمستبعد والافتراضات ومسار التغيير."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "deliver-handover",
+      "slug": "handover",
+      "trackId": "deliver",
+      "number": 3,
+      "title": {
+        "en": "Design the handover",
+        "ar": "تصميم التسليم"
+      },
+      "principle": {
+        "en": "A handover transfers context, current state, decisions, risks, owners and acceptance criteria.",
+        "ar": "ينقل التسليم السياق والحالة الحالية والقرارات والمخاطر والمسؤولين ومعايير القبول."
+      },
+      "scenario": {
+        "en": "Files are shared at the deadline without explaining unresolved decisions.",
+        "ar": "تمت مشاركة الملفات عند الموعد دون شرح القرارات غير المحسومة."
+      },
+      "mistake": {
+        "en": "Treating file transfer as knowledge transfer.",
+        "ar": "اعتبار نقل الملفات نقلًا للمعرفة."
+      },
+      "mission": {
+        "en": "Create a handover checklist and ask the receiver to demonstrate readiness.",
+        "ar": "أنشئ قائمة تسليم واطلب من المستلم إظهار جاهزيته."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "deliver-internal-service",
+      "slug": "internal-service",
+      "trackId": "deliver",
+      "number": 4,
+      "title": {
+        "en": "Improve internal service",
+        "ar": "تحسين الخدمة الداخلية"
+      },
+      "principle": {
+        "en": "Internal service quality depends on clear demand, response standards and feedback across teams.",
+        "ar": "تعتمد جودة الخدمة الداخلية على طلب واضح ومعايير استجابة وتغذية راجعة بين الفرق."
+      },
+      "scenario": {
+        "en": "A support team receives vague requests through five channels.",
+        "ar": "يتلقى فريق دعم طلبات غامضة عبر خمس قنوات."
+      },
+      "mistake": {
+        "en": "Measuring ticket closure without checking whether work can continue.",
+        "ar": "قياس إغلاق الطلب دون التحقق من قدرة العمل على الاستمرار."
+      },
+      "mission": {
+        "en": "Define one request format, service expectation and outcome signal.",
+        "ar": "حدد صيغة طلب وتوقع خدمة ومؤشر نتيجة واحدًا."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "deliver-close-loop",
+      "slug": "close-loop",
+      "trackId": "deliver",
+      "number": 5,
+      "title": {
+        "en": "Close the feedback loop",
+        "ar": "إغلاق دائرة الملاحظات"
+      },
+      "principle": {
+        "en": "Feedback creates value when it is acknowledged, decided, acted on and communicated back.",
+        "ar": "تخلق الملاحظات قيمة عندما تُستلم ويُتخذ قرار بشأنها ويُنفذ ويُعاد التواصل."
+      },
+      "scenario": {
+        "en": "Customers keep reporting the same issue but never hear what changed.",
+        "ar": "يواصل العملاء الإبلاغ عن المشكلة نفسها دون معرفة ما تغير."
+      },
+      "mistake": {
+        "en": "Collecting more feedback than the team can review.",
+        "ar": "جمع ملاحظات أكثر مما يستطيع الفريق مراجعته."
+      },
+      "mission": {
+        "en": "Choose one feedback source and publish owner, decision cadence and response rule.",
+        "ar": "اختر مصدر ملاحظات وحدد المسؤول وإيقاع القرار وقاعدة الرد."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "adapt-learning",
+      "slug": "learning",
+      "trackId": "adapt",
+      "number": 1,
+      "title": {
+        "en": "Learn deliberately",
+        "ar": "التعلم بصورة مقصودة"
+      },
+      "principle": {
+        "en": "Development improves when a specific behavior is practiced, observed and reviewed in context.",
+        "ar": "يتحسن التطور عندما يُمارس سلوك محدد ويُلاحظ ويُراجع داخل سياقه."
+      },
+      "scenario": {
+        "en": "A learner finishes many courses but cannot name a changed work habit.",
+        "ar": "أنهى متعلم دورات كثيرة لكنه لا يستطيع تسمية عادة عمل تغيرت."
+      },
+      "mistake": {
+        "en": "Counting content consumption as capability.",
+        "ar": "اعتبار استهلاك المحتوى قدرة مكتسبة."
+      },
+      "mission": {
+        "en": "Choose one behavior, practice opportunity, observer and review date.",
+        "ar": "اختر سلوكًا وفرصة ممارسة وملاحظًا وتاريخ مراجعة."
+      },
+      "level": "L1",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "adapt-pressure",
+      "slug": "pressure",
+      "trackId": "adapt",
+      "number": 2,
+      "title": {
+        "en": "Work under sustainable pressure",
+        "ar": "العمل تحت ضغط مستدام"
+      },
+      "principle": {
+        "en": "Sustainable performance makes demand, capacity, recovery and escalation discussable.",
+        "ar": "يجعل الأداء المستدام الطلب والقدرة والتعافي والتصعيد قابلة للنقاش."
+      },
+      "scenario": {
+        "en": "A team repeatedly solves overload with silent overtime.",
+        "ar": "يعالج فريق الحمل الزائد مرارًا بعمل إضافي صامت."
+      },
+      "mistake": {
+        "en": "Treating individual resilience as the only capacity control.",
+        "ar": "اعتبار صمود الفرد الضابط الوحيد للقدرة."
+      },
+      "mission": {
+        "en": "Map demand, capacity, recovery and one escalation threshold for this week.",
+        "ar": "ارسم الطلب والقدرة والتعافي وحد تصعيد واحدًا لهذا الأسبوع."
+      },
+      "level": "L2",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "adapt-adoption",
+      "slug": "adoption",
+      "trackId": "adapt",
+      "number": 3,
+      "title": {
+        "en": "Lead adoption",
+        "ar": "قيادة التبني"
+      },
+      "principle": {
+        "en": "Adoption is behavior change supported by usefulness, ability, prompts and reinforcement.",
+        "ar": "التبني تغيير سلوكي تدعمه الفائدة والقدرة والمحفزات والتعزيز."
+      },
+      "scenario": {
+        "en": "A new system launches after a demonstration but daily work stays unchanged.",
+        "ar": "أُطلق نظام جديد بعد عرض توضيحي لكن العمل اليومي لم يتغير."
+      },
+      "mistake": {
+        "en": "Measuring logins as proof of useful adoption.",
+        "ar": "قياس تسجيلات الدخول كدليل على تبنٍ مفيد."
+      },
+      "mission": {
+        "en": "Define the target behavior, friction, support and an outcome measure.",
+        "ar": "حدد السلوك المستهدف والعائق والدعم ومقياس نتيجة."
+      },
+      "level": "L3",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "adapt-experiments",
+      "slug": "experiments",
+      "trackId": "adapt",
+      "number": 4,
+      "title": {
+        "en": "Run safe experiments",
+        "ar": "إجراء تجارب آمنة"
+      },
+      "principle": {
+        "en": "A useful experiment has a hypothesis, bounded risk, signal, owner and stop rule.",
+        "ar": "للتجربة المفيدة فرضية ومخاطر محدودة وإشارة ومسؤول وقاعدة توقف."
+      },
+      "scenario": {
+        "en": "A pilot expands before the team agrees what success or harm looks like.",
+        "ar": "توسعت تجربة قبل اتفاق الفريق على شكل النجاح أو الضرر."
+      },
+      "mistake": {
+        "en": "Calling an irreversible rollout an experiment.",
+        "ar": "وصف تعميم غير قابل للعكس بأنه تجربة."
+      },
+      "mission": {
+        "en": "Design a two-week test with hypothesis, guardrails, signal and review.",
+        "ar": "صمم اختبارًا لأسبوعين بفرضية وضوابط وإشارة ومراجعة."
+      },
+      "level": "L4",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    },
+    {
+      "id": "adapt-responsible-ai",
+      "slug": "responsible-ai",
+      "trackId": "adapt",
+      "number": 5,
+      "title": {
+        "en": "Use AI responsibly",
+        "ar": "استخدام الذكاء الاصطناعي بمسؤولية"
+      },
+      "principle": {
+        "en": "Responsible AI use matches the tool to risk, protects data and keeps accountable human review.",
+        "ar": "يوائم الاستخدام المسؤول للذكاء الاصطناعي الأداة مع المخاطر ويحمي البيانات ويبقي مراجعة بشرية مسؤولة."
+      },
+      "scenario": {
+        "en": "A public AI tool is asked to summarize confidential client material.",
+        "ar": "طُلب من أداة ذكاء اصطناعي عامة تلخيص مادة سرية لعميل."
+      },
+      "mistake": {
+        "en": "Assuming confident output is verified output.",
+        "ar": "افتراض أن المخرج الواثق مخرج متحقق منه."
+      },
+      "mission": {
+        "en": "Classify one use case by data sensitivity, impact, checks and accountable owner.",
+        "ar": "صنّف حالة استخدام حسب حساسية البيانات والأثر والفحوص والمسؤول."
+      },
+      "level": "L5",
+      "estimatedMinutes": 15,
+      "sourceIds": []
+    }
+  ]
+}

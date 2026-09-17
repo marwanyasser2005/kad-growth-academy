@@ -4,11 +4,14 @@ import {resolve, dirname} from "node:path";
 import {curriculum} from "../src/data/curriculum.mjs";
 import {questionBank} from "../src/data/questions.mjs";
 import {cases, tools, futureTracks} from "../src/data/practice.mjs";
+import {academyTracks,academyUnits,academyQuestions,academyStats,developmentLevels} from "../src/data/academy.mjs";
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),"..");
 const folder=resolve(root,"content");
 await mkdir(folder,{recursive:true});
 const snapshots={
+  "academy.json":{version:"2.0.0",stats:academyStats,developmentLevels,tracks:academyTracks.map(({units,...track})=>({...track,unitIds:units.map(unit=>unit.id)})),units:academyUnits.map(({questions,...unit})=>unit)},
+  "academy-question-bank.json":{version:"2.0.0",assessmentType:"original_bilingual_formative",questionBank:academyQuestions},
   "curriculum.json":curriculum,
   "question-bank.json":{version:curriculum.version,assessmentType:"original_topic_aligned_formative",questionBank},
   "practice.json":{version:curriculum.version,cases,tools,futureTracks},
